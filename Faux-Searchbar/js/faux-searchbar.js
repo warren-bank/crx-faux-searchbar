@@ -16,23 +16,11 @@ jQuery(document).ready(function($){
 		removeContextMenu();
 	});
 
-	$('.errorBoxCross').live('click', function(){
-		$('#errorBox').css('display','none');
-		return true;
-	});
-
 	// Listen to the background page
 	chrome.runtime.onMessage.addListener(function (request) {
 
-		// Display error message
-		if (request.action == "displayError") {
-			$("#errorLine").html(request.errorLine);
-			$("#errorMessage").html(request.errorMessage);
-			$("#errorBox").css("display","inline-block");
-		}
-
 		// Change to options page if user wants to open Faux Searchbar's options
-		else if (request.action && request.action == "openOptions") {
+		if (request.action && request.action == "openOptions") {
 			chrome.tabs.getCurrent(function(tab){
 				if (tab.id == request.tabId) {
 					window.location.reload();
