@@ -1,0 +1,24 @@
+{
+   "name": "Faux Searchbar",
+   "description": "A tool to easily describe and query custom search engines.",
+   "version": "0.1.0",
+   "icons": {
+       "16": "img/icon16.png",
+       "48": "img/icon48.png",
+      "128": "img/icon128.png"
+   },
+   "background": {
+      "persistent": true,
+      "scripts": [ "/js/jquery-1.7.min.js", "/js/common.js", "/js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon16.png",
+      "default_title": "Open Faux Searchbar"
+   },
+   "web_accessible_resources": [ "html/faux-searchbar.html" ],
+   "options_page": "html/launchoptions.html",
+   "permissions": [ "tabs", "storage", "unlimitedStorage" ],
+   "content_security_policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http: https: data: chrome: filesystem:; connect-src 'self' http: https: chrome-extension:; frame-src http: https:",
+   "incognito": "not_allowed",
+   "manifest_version": 2
+}

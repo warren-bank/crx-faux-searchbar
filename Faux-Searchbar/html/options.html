@@ -1,0 +1,153 @@
+<!-- This is the options page that gets AJAX'd into faux-searchbar.html if #options=1 is present. -->
+
+<!-- Add in the CSS -->
+<link href="/css/options.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!-- Main options page -->
+<table id="options">
+	<tr>
+		<!-- Left menu -->
+		<td id="option_menu">
+			<span class="optionmenucat">Options</span>
+			<div id="option_section_general" class="section_selected" optionbox="generaloptions">General</div>
+			<div id="option_section_searchengines" class="section_general" optionbox="searchoptions">Search Engines</div>
+
+			<span class="optionmenucat" style="margin-top:5px">Misc</span>
+			<div id="option_section_management" class="section_general" optionbox="managementoptions">Management</div>
+		</td>
+
+		<!-- Options subpages container -->
+		<td id="option_boxes">
+
+			<!-- General options -->
+			<div id="generaloptions" class="optionbox">
+				<img src="/img/cross.png" class="closeoptions" title="Close" class="filter-tint" data-pb-tint-opacity="0" />
+				<h1>
+					<img src="/img/icon48.png" style="height:28px; width:28px; vertical-align:middle; position:relative; top:-2px; padding-right:2px" />
+					General Options
+				</h1>
+				Below are some initial options to configure <span class="extensionName">Faux Searchbar</span> how you'd like.
+				<table>
+					<tr><td colspan="2" class="tdhr"><div></div></td></tr>
+					<tr>
+						<th>Startup</th>
+						<td>
+							<label class="legend" style="margin-top:5px">
+								Upon clicking the
+								<img src="/img/icon16.png" style="height:16px; width:16px; vertical-align:top" />
+								icon, open <span class="extensionName">Faux Searchbar</span>:
+								<select name="option_launch_FauxSearchbar" id="option_launch_FauxSearchbar">
+									<option value="currentTab">in the current tab</option>
+									<option value="newTab">in a new tab</option>
+									<option value="newWindow">in a new window</option>
+								</select>
+							</label>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- Search Box options -->
+			<div id="searchoptions" class="optionbox">
+				<img src="/img/cross.png" class="closeoptions" title="Close" class="filter-tint" data-pb-tint-opacity="0" />
+				<h1>
+					<img src="/img/icon48.png" style="height:28px; width:28px; vertical-align:middle; position:relative; top:-2px; padding-right:2px" />
+					Search Engine Options
+				</h1>
+				If a website you visit has a search field, right-click the field to add it as a <span class="extensionName">Faux Searchbar</span> search engine.<br/>
+				Then, within <span class="extensionName">Faux Searchbar</span>, search engines you've added can be used from either the Address Box or Search Box.
+				<table>
+					<tr><td colspan="2" class="tdhr"><div></div></td></tr>
+					<tr>
+						<th>Search Engines</th>
+						<td>
+							<div class="optionstip" style="line-height:150%; margin-top:-3px; margin-bottom:10px">
+								<span class="extensionName" style="font-size:12px">Faux Searchbar</span>'s search engines are separate from Chrome's search engines.<br />
+								Drag an icon to rearrange the display order, or <a sortSearchEnginesAlphabetically style="text-decoration:underline; cursor:pointer">sort alphabetically</a>.
+							</div>
+							<div id="opensearchengines" style="margin-top:-3px">You haven't added any search engines to Faux Searchbar yet.</div>
+							<div id="restorebig3" style="margin-top:10px">
+								Restore:
+								<button class="searchenginebutton google" shortname="Google" searchurl="https://www.google.com/search?q={searchTerms}" style="font-size:12px; padding:2px 4px 2px 3px;">
+									<img src="/img/google.ico" style="vertical-align:middle; margin-top:-3px;" />
+									Google.com
+								</button>
+								<button class="searchenginebutton duckduckgo" shortname="DuckDuckGo" searchurl="https://duckduckgo.com/?q={searchTerms}" style="font-size:12px; padding:2px 4px 2px 3px;">
+									<img src="/img/duckduckgo.ico" style="vertical-align:middle; margin-top:-3px;" />
+									DuckDuckGo.com
+								</button>
+								<button class="searchenginebutton yahoo" shortname="Yahoo!" searchurl="https://search.yahoo.com/search?p={searchTerms}" style="font-size:12px; padding:2px 4px 2px 3px;">
+									<img src="/img/yahoo.ico" style="vertical-align:middle; margin-top:-3px;" />
+									Yahoo.com
+								</button>
+								<button class="searchenginebutton bing" shortname="Bing" searchurl="https://www.bing.com/search?q={searchTerms}" style="font-size:12px; padding:2px 4px 2px 3px;">
+									<img src="/img/bing.ico" style="vertical-align:middle; margin-top:-3px;" />
+									Bing.com
+								</button>
+							</div>
+							<div id="restoreSearchEngines" style="margin-top:16px">
+								<button resetEngines>Remove all...</button>
+							</div>
+						</td>
+					</tr>
+					<tr><td colspan="2" class="tdhr"><div></div></td></tr>
+					<tr>
+						<th>Adding Engines</th>
+						<td>
+							<button addManually style="font-size:12px;font-family:inherit">Add manually...</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- Management options -->
+			<div id="managementoptions" class="optionbox">
+				<img src="/img/cross.png" class="closeoptions" title="Close" class="filter-tint" data-pb-tint-opacity="0" />
+				<h1>
+					<img src="/img/icon48.png" style="height:28px; width:28px; vertical-align:middle; position:relative; top:-2px; padding-right:2px;" />
+					Management
+				</h1>
+				<table>
+					<tr><td colspan="2" class="tdhr"><div></div></td></tr>
+					<tr>
+						<th>Options</th>
+						<td>
+							<div class="optionstip" style="margin-top:-3px">
+								Here you can save or restore <span class="extensionName" style="font-size:12px">Faux Searchbar</span>'s configuration data.
+							</div>
+							<div class="legend" style="margin-top:4px">
+								Local backup/restore:
+								<button showBackupInfo>
+									Export to file...
+								</button>
+								<button showRestoreInfo>
+									Import from file...
+								</button>
+							</div>
+							<div style="clear:both"></div>
+							<div class="legend" id="backupinfo" style="display:none">
+								<div style="line-height:180%">
+									To manually export your <span class="extensionName">Faux Searchbar</span> options:<br />
+									1. Copy all the text in the box below to your clipboard.<br />
+									2. Paste the text into a new plain-text document somewhere, then save it for later.
+								</div>
+								<textarea id="backup" disabled style="font-size:12px; width:90%; height:200px; margin-top:10px"></textarea>
+							</div>
+							<div class="legend" id="restoreinfo" style="display:none">
+								<div style="line-height:180%">
+									To manually import your Faux Searchbar options:<br />
+									1. Open the document containing the exported options text.<br />
+									2. Select all the text, then copy it to your clipboard.<br />
+									3. Paste the text into the box below.<br />
+									4. Click <button id="applyrestore" style="font-size:12px">Apply</button>
+								</div>
+								<textarea id="restore" style="font-size:12px; width:90%; height:200px; margin-top:10px"></textarea>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+		</td>
+	</tr>
+</table>
