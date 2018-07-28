@@ -1,7 +1,7 @@
 {
    "name": "Faux Searchbar",
    "description": "A tool to easily describe and query custom search engines.",
-   "version": "0.1.1",
+   "version": "0.2.0",
    "icons": {
        "16": "img/icon16.png",
        "48": "img/icon48.png",
@@ -9,7 +9,7 @@
    },
    "background": {
       "persistent": true,
-      "scripts": [ "/js/jquery-1.7.min.js", "/js/common.js", "/js/background.js" ]
+      "scripts": [ "/js/jquery-1.7.min.js", "/js/common.js", "/js/background.js", "/js/background-incognito.js" ]
    },
    "browser_action": {
       "default_icon": "img/icon16.png",
@@ -17,8 +17,6 @@
    },
    "web_accessible_resources": [ "html/faux-searchbar.html" ],
    "options_page": "html/launchoptions.html",
-   "permissions": [ "tabs", "storage", "unlimitedStorage" ],
-   "content_security_policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http: https: data: chrome: filesystem:; connect-src 'self' http: https: chrome-extension:; frame-src http: https:",
-   "incognito": "not_allowed",
+   "permissions": [ "tabs", "storage", "unlimitedStorage", "https://www.google.com/images/icons/product/chrome-32.png" ],
    "manifest_version": 2
 }

@@ -45,6 +45,21 @@ These limitations are inherited from the design of the original extension:
   * this wouldn't work with `"incognito": "split"` since:
     * the background script that can be accessed by user-scripts in an incognito window cannot directly access the database
 
+#### Incognito Workaround:
+
+added in v0.2.0:
+* Options &gt; General &gt; Query:
+  * Upon submitting a search query, open the results: __in an incognito window__
+  * pro:
+    * displays search results in an incognito window
+  * con:
+    * the search bar must still be loaded into a non-incognito window
+  * caveats:
+    * "Allow in incognito" must be true
+      * not used for loading the search bar, but needed to access incognito _windowId_ values used by the _tabs_ API
+    * new incognito tabs are initialized to an "http:" URL, since extensions cannot access "chrome://newtab/"
+      * explains why the new tab might momentarily display a small icon
+
 #### Credits:
 
 * [Fauxbar](https://github.com/ChrisNZL/Fauxbar)

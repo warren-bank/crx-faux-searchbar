@@ -181,10 +181,29 @@ jQuery(document).ready(function($){
 })
 
 // Tell the tab to go to a URL.
-function goToUrl(url) {
-	chrome.tabs.getCurrent(function(tab){
-		chrome.tabs.update(tab.id, {url:url});
-	});
+function make_GET_request(url) {
+	if (localStorage.option_submit_FauxSearchbar === "incognitoWindow") {
+		chrome.runtime.getBackgroundPage(function (bg) {
+			bg.make_GET_request_in_incognito_window(url)
+		})
+	}
+	else { // "currentTab"
+		chrome.tabs.getCurrent(function(tab){
+			chrome.tabs.update(tab.id, {url})
+		})
+	}
+}
+
+function make_POST_request(DOMstring) {
+	if (localStorage.option_submit_FauxSearchbar === "incognitoWindow") {
+		chrome.runtime.getBackgroundPage(function (bg) {
+			bg.make_POST_request_in_incognito_window(DOMstring)
+		})
+	}
+	else { // "currentTab"
+		$("#tempform").remove()
+		$(DOMstring).appendTo( $("body") ).submit()
+	}
 }
 
 // Submit the Search Box's input as a search to the selected search engine.
@@ -207,7 +226,7 @@ function submitOpenSearch(query) {
 			searchUrl = str_replace("+", "%20", searchUrl);
 		}
 
-		goToUrl(searchUrl);
+		make_GET_request(searchUrl);
 	}
 	else {
 		// POST
@@ -236,18 +255,20 @@ function submitOpenSearch(query) {
 		}
 
 		if (!qs_array.length){
-			return goToUrl(searchUrl)
+			return make_GET_request(searchUrl)
 		}
 
-		$("#tempform").remove();
-		$("body").append('<form method="post" action="'+ action +'" id="tempform" style="position:absolute;z-index:-999;opacity:0"></form>')
+		var $form, DOMstring
+		$form = $('<form method="post" action="'+ action +'" id="tempform" style="position:absolute;z-index:-999;opacity:0"></form>')
 		for (var i=0; i<qs_array.length; i++){
 			qs_param_key = qs_array[i][0]
 			qs_param_val = qs_array[i][1]
 
-			$('#tempform').append('<input type="hidden" name="' + qs_param_key + '" value="' + qs_param_val + '" />')
+			$form.append('<input type="hidden" name="' + qs_param_key + '" value="' + qs_param_val + '" />')
 		}
-		$("#tempform").submit()
+		DOMstring = $form[0].outerHTML
+
+		make_POST_request(DOMstring)
 	}
 }
 

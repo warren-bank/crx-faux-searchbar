@@ -149,8 +149,9 @@ function openDb() {
 // Set localStorage vars with default Faux Searchbar values.
 // Used when first loading Faux Searchbar, or when user chooses to reset all the values.
 function resetOptions() {
-	localStorage.option_launch_FauxSearchbar = "newTab";				// Open Faux Searchbar upon clicking browser action icon. newTab, currentTab or newWindow
-	localStorage.option_optionpage = "option_section_general";	// Option section/subpage to load when Options are shown.
+	localStorage.option_launch_FauxSearchbar = "newTab";			// Open Faux Searchbar upon clicking browser action icon. [newTab, currentTab, newWindow]
+	localStorage.option_submit_FauxSearchbar = "incognitoWindow";	// Open search results upon running a query. [currentTab, incognitoWindow]
+	localStorage.option_optionpage = "option_section_general";		// Option section/subpage to load when Options are shown.
 }
 
 // Below are mostly borrowed functions from other sources.
