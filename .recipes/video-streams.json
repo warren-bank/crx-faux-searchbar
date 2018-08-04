@@ -57,6 +57,14 @@
         "position": 2,
         "isdefault": 0
     }, {
+        "shortname": "video - live TV #03 - Sky News",
+        "iconurl": "http://www.skynewsinternational.com/public/assets/favicons/favicon.ico",
+        "searchurl": "https://news.sky.com/watch-live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
         "shortname": "video - TV and movies #01 - ABC",
         "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
         "searchurl": "https://search.abc.go.com/search?search=fullepisodes&q={searchTerms}",
@@ -233,17 +241,17 @@
         "position": 3,
         "isdefault": 0
     }, {
-        "shortname": "video - TV and movies #12.05 - Pluto TV - CNBC (financial markets)",
-        "iconurl": "https://fm.cnbc.com/applications/cnbc.com/staticcontent/img/mobile/touch/cnbc-logo-sharing-57.jpg",
-        "searchurl": "http://pluto.tv/watch/cnbc",
+        "shortname": "video - TV and movies #12.05 - Pluto TV - Sky News (live)",
+        "iconurl": "http://www.skynewsinternational.com/public/assets/favicons/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/sky-news",
         "method": "get",
         "encoding": "undefined",
         "position": 3,
         "isdefault": 0
     }, {
-        "shortname": "video - TV and movies #12.06 - Pluto TV - Sky News (UK, international)",
-        "iconurl": "https://news.sky.com/assets/2018/favicon-16x16.png",
-        "searchurl": "http://pluto.tv/watch/sky-news",
+        "shortname": "video - TV and movies #12.06 - Pluto TV - CNBC (financial markets)",
+        "iconurl": "https://fm.cnbc.com/applications/cnbc.com/staticcontent/img/mobile/touch/cnbc-logo-sharing-57.jpg",
+        "searchurl": "http://pluto.tv/watch/cnbc",
         "method": "get",
         "encoding": "undefined",
         "position": 3,
