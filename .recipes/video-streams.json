@@ -153,6 +153,118 @@
         "position": 2,
         "isdefault": 0
     }, {
+        "shortname": "video - live TV #07.00 - TVCatchup - channels",
+        "iconurl": "http://www.tvcatchup.com/favico.ico",
+        "searchurl": "http://www.tvcatchup.com/channels",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.01 - TVCatchup - BBC News (UK)",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/bbcnews",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.02 - TVCatchup - BBC One (UK)",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/bbcone",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.03 - TVCatchup - BBC Two (UK)",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/bbctwo",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.04 - TVCatchup - BBC Four (UK)",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/bbcfour",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.05 - TVCatchup - ITV (UK)",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/itv",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.06 - TVCatchup - ITV 2 (UK)",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/itv2",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.07 - TVCatchup - ITV 3 (UK)",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/itv3",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.08 - TVCatchup - ITV 4 (UK)",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/itv4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.09 - TVCatchup - Channel 4 (UK)",
+        "iconurl": "https://www.channel4.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/channel4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.10 - TVCatchup - Channel 5 (UK)",
+        "iconurl": "http://www.channel5.com/wp-content/themes/channel5/images/favicon.gif",
+        "searchurl": "http://www.tvcatchup.com/watch/five",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.11 - TVCatchup - Food Network",
+        "iconurl": "https://www.foodnetwork.com/etc/clientlibs/assets/images/food/favicon-32x32.png",
+        "searchurl": "http://www.tvcatchup.com/watch/foodnetwork",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.12 - TVCatchup - CBS Reality",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/cbsreality",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.13 - TVCatchup - CBS Action",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/cbsaction",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
         "shortname": "video - TV and movies #01 - ABC",
         "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
         "searchurl": "https://search.abc.go.com/search?search=fullepisodes&q={searchTerms}",
