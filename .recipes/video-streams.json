@@ -570,12 +570,60 @@
         "position": 3,
         "isdefault": 0
     }, {
+        "shortname": "video - regional news #01.01 - Boston - WFXT 25 (FOX)",
+        "iconurl": "https://www.boston25news.com/cmg-main-theme/images/color_schemes/wfxt/favicon.ico",
+        "searchurl": "https://www.boston25news.com/live-stream",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #01.02 - Boston - WHDH 7",
+        "iconurl": "https://secure.gravatar.com/blavatar/9f4e45f307c06529c914715b2cbc325b?s=32",
+        "searchurl": "https://whdh.com/on-air-live-stream/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #02.01 - New York - WNYW 5 (FOX)",
+        "iconurl": "http://www.fox5ny.com/fox-main-theme/images/color-schemes/wnyw/favicon.ico",
+        "searchurl": "http://www.fox5ny.com/video/live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #03.01 - Las Vegas - KTNV 13 (ABC)",
+        "iconurl": "https://assets.scrippsdigital.com/cms/images/color_schemes/ktnv/favicon.ico",
+        "searchurl": "https://www.ktnv.com/livestream",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #03.02 - Las Vegas - KLAS 8 (CBS)",
+        "iconurl": "https://www.lasvegasnow.com/nxs-main-v2-theme/images/color_schemes/lasvegasnow/favicon.ico",
+        "searchurl": "https://www.lasvegasnow.com/live-stream",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #03.03 - Las Vegas - KSNV 3 (NBC / Sinclair)",
+        "iconurl": "https://static-36.sinclairstoryline.com/resources/assets/ksnv/images/logos/favicon.ico",
+        "searchurl": "https://news3lv.com/watch",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
         "shortname": "video - clips #01 - Vimeo",
         "iconurl": "https://f.vimeocdn.com/images_v6/favicon.ico",
         "searchurl": "https://vimeo.com/search?price=free&q={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 4,
+        "position": 5,
         "isdefault": 0
     }, {
         "shortname": "video - clips #02 - Flickr",
@@ -583,7 +631,7 @@
         "searchurl": "https://www.flickr.com/search/?media=videos&text={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 4,
+        "position": 5,
         "isdefault": 0
     }, {
         "shortname": "video - clips #03 - Metacafe",
@@ -591,7 +639,7 @@
         "searchurl": "http://www.metacafe.com/videos_about/{searchTerms}?channel_filter=videos",
         "method": "get",
         "encoding": "other",
-        "position": 4,
+        "position": 5,
         "isdefault": 0
     }, {
         "shortname": "video - clips #04 - Dailymotion",
@@ -599,7 +647,7 @@
         "searchurl": "https://www.dailymotion.com/search/{searchTerms}",
         "method": "get",
         "encoding": "other",
-        "position": 4,
+        "position": 5,
         "isdefault": 0
     }, {
         "shortname": "video - clips #05 - Viewster",
@@ -607,7 +655,7 @@
         "searchurl": "http://www.viewster.com/search/{searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 4,
+        "position": 5,
         "isdefault": 0
     }, {
         "shortname": "video - clips #06 - Break",
@@ -615,7 +663,7 @@
         "searchurl": "http://www.break.com/?s={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 4,
+        "position": 5,
         "isdefault": 0
     }, {
         "shortname": "video - clips #07 - StupidVideos",
@@ -623,7 +671,7 @@
         "searchurl": "http://www.stupidvideos.com/?s={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 4,
+        "position": 5,
         "isdefault": 0
     }, {
         "shortname": "video - anime #01 - KissAnime",
@@ -631,7 +679,7 @@
         "searchurl": "http://kissanime.ru/AdvanceSearch?genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&status=&animeName={searchTerms}",
         "method": "post",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - anime #02 - AnimeHeaven",
@@ -639,7 +687,7 @@
         "searchurl": "http://animeheaven.eu/search.php?q={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - anime #03 - Animefreak",
@@ -647,7 +695,7 @@
         "searchurl": "http://animefreak.tv/search/node/type%3Abook%20{searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - anime #04 - Soul Anime",
@@ -655,7 +703,7 @@
         "searchurl": "http://ww5.soul-anime.us/search.php?search={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }]
 }
