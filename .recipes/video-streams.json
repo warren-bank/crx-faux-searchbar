@@ -586,7 +586,15 @@
         "position": 4,
         "isdefault": 0
     }, {
-        "shortname": "video - regional news #02.01 - New York - WNYW 5 (FOX)",
+        "shortname": "video - regional news #02.01 - New York - WABC 7 (ABC)",
+        "iconurl": "https://cdns.abclocal.go.com/assets/news/wabc/images/logos/favicon.ico",
+        "searchurl": "https://abc7ny.com/live/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #02.02 - New York - WNYW 5 (FOX)",
         "iconurl": "http://www.fox5ny.com/fox-main-theme/images/color-schemes/wnyw/favicon.ico",
         "searchurl": "http://www.fox5ny.com/video/live",
         "method": "get",
