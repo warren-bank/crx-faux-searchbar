@@ -265,6 +265,39 @@
         "position": 2,
         "isdefault": 0
     }, {
+        "shortname": "video - live TV #08.00 - MLB Network - schedule of upcoming games",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "http://m.mlb.com/network/shows/?id=live_games",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.00 - MLB Network - program guide (Eastern Time)",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "http://m.mlb.com/network/tv-schedule/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.01 - MLB Network",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "x-searchurl": "https://www.mlbstream.io/mlb-network-live/stream-1",
+        "searchurl": "https://www.mlbstream.io/embed/294437/1/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.01 - MLB Network (WebCast)",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9tbGJsaXZlLWFrYy5tbGIuY29tL2xzMDEvbWxiYW0vbWxiX25ldHdvcmsvTkVUV09SS19MSU5FQVJfMS9tYXN0ZXJfd2lyZWQubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
         "shortname": "video - TV and movies #01 - ABC",
         "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
         "searchurl": "https://search.abc.go.com/search?search=fullepisodes&q={searchTerms}",
