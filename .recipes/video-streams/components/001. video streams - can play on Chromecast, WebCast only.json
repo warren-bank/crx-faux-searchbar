@@ -314,14 +314,6 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.01 - ESPN (HLS-Proxy)",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "https://www.arconaitv.us/stream.php?id=40",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
         "shortname": "video - TV and movies #01 - ABC",
         "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
         "searchurl": "https://search.abc.go.com/search?search=fullepisodes&q={searchTerms}",

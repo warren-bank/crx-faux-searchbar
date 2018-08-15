@@ -1,0 +1,28 @@
+{
+    "restore": "append",
+    "searchengines": [{
+        "shortname": "video - live TV #09.02 - ESPN (encrypted)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espn-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.03 - ESPN 2 (encrypted)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espn-2-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.04 - ESPNU college athletics (encrypted)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espnu-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }]
+}

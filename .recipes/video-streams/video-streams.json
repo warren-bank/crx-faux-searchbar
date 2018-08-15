@@ -1,0 +1,765 @@
+{
+    "restore": "append",
+    "searchengines": [{
+        "shortname": "video - educational lectures #01 - MIT OpenCourseWare (OCW)",
+        "iconurl": "https://ocw.mit.edu/images/apple-touch-icon.png",
+        "searchurl": "https://archive.org/details/mit_ocw?and[]=mediatype:%22movies%22&and[]={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #02 - Open Yale Courses",
+        "iconurl": "https://oyc.yale.edu/sites/all/themes/yalenew_base/images/favicon.ico",
+        "searchurl": "https://oyc.yale.edu/search/node/{searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #03 - University of California, Irvine - OpenChemistry",
+        "iconurl": "https://ps.uci.edu/sites/all/themes/psbase/img/favicon.ico",
+        "searchurl": "https://ps.uci.edu/content/openchemistry-lectures",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #04 - VideoLectures",
+        "iconurl": "http://static.videolectures.net/r.1483388978//custom/favicon.ico",
+        "searchurl": "http://videolectures.net/site/search/?q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #05 - TED Talks",
+        "iconurl": "https://pa.tedcdn.com/favicon.ico",
+        "searchurl": "https://www.ted.com/search?cat=talks&q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #01 - CBS News",
+        "iconurl": "https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico",
+        "searchurl": "https://www.cbsnews.com/live/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #01 - CBS News (WebCast)",
+        "iconurl": "https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly93d3cuY2JzbmV3cy5jb20vY29tbW9uL3ZpZGVvL2RhaV9wcm9kLm0zdTg%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #02 - ABC News",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "https://abcnews.go.com/Live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #02 - ABC News (WebCast)",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9hYmNsaXZlMi1saC5ha2FtYWloZC5uZXQvaS9hYmNfbGl2ZTExQDQyMzQwNC9tYXN0ZXIubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #03 - Bloomberg TV",
+        "iconurl": "https://assets.bwbx.io/s3/javelin/public/hub/images/apple-touch-icon-57x57-b572ef8093.png",
+        "searchurl": "https://www.bloomberg.com/live/us",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #03 - Bloomberg TV (WebCast)",
+        "iconurl": "https://assets.bwbx.io/s3/javelin/public/hub/images/apple-touch-icon-57x57-b572ef8093.png",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9iYmxpdmUtbGl2ZXByb2R1c2Vhc3QuaHMubGxud2QubmV0L2J0di9kZXNrdG9wL3VzX2xpdmUubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #04 - Sky News (UK)",
+        "iconurl": "http://www.skynewsinternational.com/public/assets/favicons/favicon.ico",
+        "searchurl": "https://news.sky.com/watch-live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #05 - ABC News (Australia)",
+        "iconurl": "http://www.abc.net.au/favicon.ico",
+        "searchurl": "http://www.abc.net.au/news/newschannel/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #05 - ABC News (Australia: WebCast)",
+        "iconurl": "http://www.abc.net.au/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9hYmMtaXZpZXctbWVkaWFwYWNrYWdlc3RyZWFtcy0xLmFrYW1haXplZC5uZXQvb3V0L3YxLzUwMzQ1YmYzNWY2NjQ3Mzk5MTJmMGIyNTVjMTcyYWU5L2luZGV4Lm0zdTg%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #06.01 - LiveNewsOn - CNN",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "http://www.livenewson.com/american/cnn-news-usa.html",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #06.02 - LiveNewsOn - HLN (CNN2 Headline News)",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "http://www.livenewson.com/american/hln.html",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #06.03 - LiveNewsOn - MSNBC",
+        "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
+        "searchurl": "http://www.livenewson.com/american/msnbc.html",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #06.03 - LiveNewsOn - MSNBC (WebCast)",
+        "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZW1zbmJjLWxoLmFrYW1haWhkLm5ldC9pL25iY21zbmJjXzFAMTIyNTMyL21hc3Rlci5tM3U4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #06.04 - LiveNewsOn - FOX News",
+        "iconurl": "http://global.fncstatic.com/static/orion/styles/img/fox-news/favicons/favicon.ico",
+        "searchurl": "http://www.livenewson.com/american/fox-news-channel.html",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.00 - TVCatchup - channels",
+        "iconurl": "http://www.tvcatchup.com/favico.ico",
+        "searchurl": "http://www.tvcatchup.com/channels",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.01 - TVCatchup - BBC News (UK)",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/bbcnews",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.02 - TVCatchup - BBC One (UK)",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/bbcone",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.03 - TVCatchup - BBC Two (UK)",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/bbctwo",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.04 - TVCatchup - BBC Four (UK)",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/bbcfour",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.05 - TVCatchup - ITV (UK)",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/itv",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.06 - TVCatchup - ITV 2 (UK)",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/itv2",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.07 - TVCatchup - ITV 3 (UK)",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/itv3",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.08 - TVCatchup - ITV 4 (UK)",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/itv4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.09 - TVCatchup - Channel 4 (UK)",
+        "iconurl": "https://www.channel4.com/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/channel4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.10 - TVCatchup - Channel 5 (UK)",
+        "iconurl": "http://www.channel5.com/wp-content/themes/channel5/images/favicon.gif",
+        "searchurl": "http://www.tvcatchup.com/watch/five",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.11 - TVCatchup - Food Network",
+        "iconurl": "https://www.foodnetwork.com/etc/clientlibs/assets/images/food/favicon-32x32.png",
+        "searchurl": "http://www.tvcatchup.com/watch/foodnetwork",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.12 - TVCatchup - CBS Reality",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/cbsreality",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.13 - TVCatchup - CBS Action",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "http://www.tvcatchup.com/watch/cbsaction",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.00.01 - MLB Network - schedule of upcoming games",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "http://m.mlb.com/network/shows/?id=live_games",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.00.02 - MLB Network - program guide (Eastern Time)",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "http://m.mlb.com/network/tv-schedule/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.01 - MLB Network",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "x-searchurl": "https://www.mlbstream.io/mlb-network-live/stream-1",
+        "searchurl": "https://www.mlbstream.io/embed/294437/1/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.01 - MLB Network (WebCast)",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9tbGJsaXZlLWFrYy5tbGIuY29tL2xzMDEvbWxiYW0vbWxiX25ldHdvcmsvTkVUV09SS19MSU5FQVJfMS9tYXN0ZXJfd2lyZWQubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.00.01 - ESPN - schedule: MLB",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "http://www.espn.com/mlb/schedule",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.00.02 - ESPN - schedule: Boston Red Sox",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "http://www.espn.com/mlb/team/schedule/_/name/bos",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.01 - ESPN (HLS-Proxy)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.arconaitv.us/stream.php?id=40",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.02 - ESPN (encrypted)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espn-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.03 - ESPN 2 (encrypted)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espn-2-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.04 - ESPNU college athletics (encrypted)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espnu-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #01 - ABC",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "https://search.abc.go.com/search?search=fullepisodes&q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #02 - NBC",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "https://www.nbc.com/video",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #03 - CBS",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.cbs.com/sitesearch/results/?q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #04 - The CW / CW Seed",
+        "iconurl": "http://www.cwtv.com/images/cw/favicon.ico",
+        "searchurl": "http://www.cwtv.com/search/?q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #05 - MSNBC",
+        "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
+        "searchurl": "http://www.msnbc.com/search/{searchTerms}?f[0]=bundle%3Atheplatform_video",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #06.00 - PBS",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "https://www.pbs.org/shows/?genre=All&station=false&alphabetically=true&layout=grid&title={searchTerms}",
+        "method": "get",
+        "encoding": "other",
+        "position": 3,
+        "isdefault": 1
+    }, {
+        "shortname": "video - TV and movies #06.01 - PBS - NewsHour",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "https://www.pbs.org/show/newshour/episodes/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #06.02 - PBS - BBC Newsnight",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "https://www.pbs.org/show/bbc-world-news/episodes/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #06.03 - PBS - Washington Week",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "http://www.pbs.org/weta/washingtonweek/episodes-and-videos?topic=All&type=133&page=0",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #06.04 - PBS - FRONTLINE",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "https://www.pbs.org/wgbh/frontline/watch/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #06.05 - PBS - NOVA",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "http://www.pbs.org/wgbh/nova/search/results/page/1?facet%5B%5D=dc.type%3A%22Full+Episode%22",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #06.06 - PBS - Independent Lens",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "http://www.pbs.org/independentlens/watch-video/?view=list&method=append&pagenum=1&maxpages=&topic=&sort=&order=&refine=full-films#browse",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #07 - Comedy Central",
+        "iconurl": "http://www.cc.com/favicon.ico",
+        "searchurl": "http://www.cc.com/full-episodes",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #08 - SyFy",
+        "iconurl": "http://www.syfy.com/sites/syfy/themes/wired/favicons/favicon-16x16.png",
+        "searchurl": "http://www.syfy.com/episodes",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #09 - Travel Channel",
+        "iconurl": "https://www.travelchannel.com/etc/clientlibs/assets/images/travel/favicon-96x96.png",
+        "searchurl": "https://www.travelchannel.com/shows/video/full-episodes",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #10 - HGTV",
+        "iconurl": "https://www.hgtv.com/etc/clientlibs/assets/images/hgtv/favicon-96x96.png",
+        "searchurl": "https://www.hgtv.com/shows/full-episodes",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #11 - People TV",
+        "iconurl": "https://people.com/favicon.ico",
+        "searchurl": "https://people.com/peopletv/video/live/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.00 - Pluto TV - program guide",
+        "iconurl": "http://pluto.tv/assets/images/favicons/favicon.png",
+        "searchurl": "http://pluto.tv/watch",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.01 - Pluto TV - Fox Sports",
+        "iconurl": "https://b.fssta.com/sta/images/60x60.ico",
+        "searchurl": "http://pluto.tv/watch/fox-sports",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.02 - Pluto TV - MSNBC (politics)",
+        "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/nbc-news-and-msnbc",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.03 - Pluto TV - CBS News (live)",
+        "iconurl": "https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/cbsn-2",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.04 - Pluto TV - Bloomberg TV (live)",
+        "iconurl": "https://assets.bwbx.io/s3/javelin/public/hub/images/apple-touch-icon-57x57-b572ef8093.png",
+        "searchurl": "http://pluto.tv/watch/bloomberg-tv",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.05 - Pluto TV - Sky News (live)",
+        "iconurl": "http://www.skynewsinternational.com/public/assets/favicons/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/sky-news",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.06 - Pluto TV - CNBC (financial markets)",
+        "iconurl": "https://fm.cnbc.com/applications/cnbc.com/staticcontent/img/mobile/touch/cnbc-logo-sharing-57.jpg",
+        "searchurl": "http://pluto.tv/watch/cnbc",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.07 - Pluto TV - Science TV",
+        "iconurl": "https://www.sciencechannel.com/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/science-tv",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.08 - Pluto TV - DocuTV (documentaries)",
+        "iconurl": "http://documentarytv.com/wp-content/uploads/2015/04/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/docutv",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.09 - Pluto TV - Live Music",
+        "iconurl": "http://www.mtv.com/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/live-music-replay",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.10 - Pluto TV - Food TV",
+        "iconurl": "https://www.foodnetwork.com/etc/clientlibs/assets/images/food/favicon-16x16.png",
+        "searchurl": "http://pluto.tv/watch/food-tv",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.11 - Pluto TV - People TV",
+        "iconurl": "https://people.com/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/people-tv",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.12 - Pluto TV - Crime Network",
+        "iconurl": "https://bundler.watch.aetnd.com/images/crimeandinvestigation/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/crime-network",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.13 - Pluto TV - New Detectives (CSI)",
+        "iconurl": "http://www.justicenetworktv.com/favicon.ico",
+        "searchurl": "http://pluto.tv/watch/the-new-detectives",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #13 - Popcornflix",
+        "iconurl": "https://www.popcornflix.com/favicon.png",
+        "searchurl": "https://www.popcornflix.com/searchs?q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #14 - Tubi TV",
+        "iconurl": "https://tubitv.com/favicon.ico",
+        "searchurl": "https://tubitv.com/search/{searchTerms}",
+        "method": "get",
+        "encoding": "other",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #15 - Vudu",
+        "iconurl": "https://www.vudu.com/images/icons/VUDU4.ico",
+        "searchurl": "https://www.vudu.com/content/movies/moviesonus#{%22minVisible%22:0,%22type%22:%22search%22,%22searchString%22:%22{searchTerms}%22}",
+        "method": "get",
+        "encoding": "other",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #01.01 - Boston - WFXT 25 (FOX)",
+        "iconurl": "https://www.boston25news.com/cmg-main-theme/images/color_schemes/wfxt/favicon.ico",
+        "searchurl": "https://www.boston25news.com/live-stream",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #01.02 - Boston - WHDH 7",
+        "iconurl": "https://secure.gravatar.com/blavatar/9f4e45f307c06529c914715b2cbc325b?s=32",
+        "searchurl": "https://whdh.com/on-air-live-stream/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #02.01 - New York - WABC 7 (ABC)",
+        "iconurl": "https://cdns.abclocal.go.com/assets/news/wabc/images/logos/favicon.ico",
+        "searchurl": "https://abc7ny.com/live/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #02.02 - New York - WNYW 5 (FOX)",
+        "iconurl": "http://www.fox5ny.com/fox-main-theme/images/color-schemes/wnyw/favicon.ico",
+        "searchurl": "http://www.fox5ny.com/video/live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #03.01 - Las Vegas - KTNV 13 (ABC)",
+        "iconurl": "https://assets.scrippsdigital.com/cms/images/color_schemes/ktnv/favicon.ico",
+        "searchurl": "https://www.ktnv.com/livestream",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #03.02 - Las Vegas - KLAS 8 (CBS)",
+        "iconurl": "https://www.lasvegasnow.com/nxs-main-v2-theme/images/color_schemes/lasvegasnow/favicon.ico",
+        "searchurl": "https://www.lasvegasnow.com/live-stream",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - regional news #03.03 - Las Vegas - KSNV 3 (NBC / Sinclair)",
+        "iconurl": "https://static-36.sinclairstoryline.com/resources/assets/ksnv/images/logos/favicon.ico",
+        "searchurl": "https://news3lv.com/watch",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 4,
+        "isdefault": 0
+    }, {
+        "shortname": "video - clips #01 - Vimeo",
+        "iconurl": "https://f.vimeocdn.com/images_v6/favicon.ico",
+        "searchurl": "https://vimeo.com/search?price=free&q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - clips #02 - Flickr",
+        "iconurl": "https://s.yimg.com/pw/favicon.ico",
+        "searchurl": "https://www.flickr.com/search/?media=videos&text={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - clips #03 - Metacafe",
+        "iconurl": "http://cdn.mcstatic.com/static/6624/frontend/images/favicons/favicon-16x16.png",
+        "searchurl": "http://www.metacafe.com/videos_about/{searchTerms}?channel_filter=videos",
+        "method": "get",
+        "encoding": "other",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - clips #04 - Dailymotion",
+        "iconurl": "https://static1-ssl.dmcdn.net/images/neon/favicons/android-icon-36x36.png",
+        "searchurl": "https://www.dailymotion.com/search/{searchTerms}",
+        "method": "get",
+        "encoding": "other",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - clips #05 - Viewster",
+        "iconurl": "https://www.viewster.com/images/favicon.ico",
+        "searchurl": "http://www.viewster.com/search/{searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - clips #06 - Break",
+        "iconurl": "http://cdn.break.com/wp-content/themes/break/images/favicon/favicon-16x16.png",
+        "searchurl": "http://www.break.com/?s={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - clips #07 - StupidVideos",
+        "iconurl": "http://www.doviddebresser.info/Collection/www.stupidvideos.com.ico",
+        "searchurl": "http://www.stupidvideos.com/?s={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - anime #01 - KissAnime",
+        "iconurl": "http://kissanime.ru/Content/images/favicon.ico",
+        "searchurl": "http://kissanime.ru/AdvanceSearch?genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&status=&animeName={searchTerms}",
+        "method": "post",
+        "encoding": "undefined",
+        "position": 6,
+        "isdefault": 0
+    }, {
+        "shortname": "video - anime #02 - AnimeHeaven",
+        "iconurl": "http://animeheaven.eu/favicon.ico",
+        "searchurl": "http://animeheaven.eu/search.php?q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 6,
+        "isdefault": 0
+    }, {
+        "shortname": "video - anime #03 - Animefreak",
+        "iconurl": "http://animefreak.tv/sites/default/files/af_favicon_0.ico",
+        "searchurl": "http://animefreak.tv/search/node/type%3Abook%20{searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 6,
+        "isdefault": 0
+    }, {
+        "shortname": "video - anime #04 - Soul Anime",
+        "iconurl": "http://ww5.soul-anime.us/favicon.ico",
+        "searchurl": "http://ww5.soul-anime.us/search.php?search={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 6,
+        "isdefault": 0
+    }]
+}
