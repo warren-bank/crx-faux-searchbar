@@ -265,7 +265,7 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.00 - MLB Network - schedule of upcoming games",
+        "shortname": "video - live TV #08.00.01 - MLB Network - schedule of upcoming games",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "searchurl": "http://m.mlb.com/network/shows/?id=live_games",
         "method": "get",
@@ -273,7 +273,7 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.00 - MLB Network - program guide (Eastern Time)",
+        "shortname": "video - live TV #08.00.02 - MLB Network - program guide (Eastern Time)",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "searchurl": "http://m.mlb.com/network/tv-schedule/",
         "method": "get",
@@ -293,6 +293,30 @@
         "shortname": "video - live TV #08.01 - MLB Network (WebCast)",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9tbGJsaXZlLWFrYy5tbGIuY29tL2xzMDEvbWxiYW0vbWxiX25ldHdvcmsvTkVUV09SS19MSU5FQVJfMS9tYXN0ZXJfd2lyZWQubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.00.01 - ESPN - schedule: MLB",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "http://www.espn.com/mlb/schedule",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.00.02 - ESPN - schedule: Boston Red Sox",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "http://www.espn.com/mlb/team/schedule/_/name/bos",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.01 - ESPN (HLS-Proxy)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.arconaitv.us/stream.php?id=40",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
