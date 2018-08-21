@@ -213,16 +213,16 @@ function submitOpenSearch(query) {
 	var searchUrl = $(selectedMenuItem).attr("searchurl");
 	var openSearchInputVal = query ? query : $("#opensearchinput").val();
 
-    if (searchUrl && searchUrl.length && searchUrl[0]==='$') {
-      try {
-        searchUrl = eval('(' + 'function(){' + searchUrl.substr(1) + '}()' + ')')
-      }
-      catch(e) {
-        searchUrl = ''
-      }
-    }
+	if (searchUrl && searchUrl.length && searchUrl[0]==='$') {
+		try {
+			searchUrl = eval('(' + 'function(){' + searchUrl.substr(1) + '}()' + ')')
+		}
+		catch(e) {
+			searchUrl = ''
+		}
+	}
 
-    if (!searchUrl) return
+	if (!searchUrl) return
 
 	if ($(selectedMenuItem).length && $(selectedMenuItem).attr("method") && $(selectedMenuItem).attr("method").length && $(selectedMenuItem).attr("method").toLowerCase() == 'get') {
 		// GET
