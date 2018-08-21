@@ -49,14 +49,6 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #01 - CBS News (WebCast)",
-        "iconurl": "https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico",
-        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly93d3cuY2JzbmV3cy5jb20vY29tbW9uL3ZpZGVvL2RhaV9wcm9kLm0zdTg%253D",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
         "shortname": "video - live TV #02 - ABC News",
         "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
         "searchurl": "https://abcnews.go.com/Live",
@@ -65,25 +57,9 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #02 - ABC News (WebCast)",
-        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
-        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9hYmNsaXZlMi1saC5ha2FtYWloZC5uZXQvaS9hYmNfbGl2ZTExQDQyMzQwNC9tYXN0ZXIubTN1OA%253D%253D",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
         "shortname": "video - live TV #03 - Bloomberg TV",
         "iconurl": "https://assets.bwbx.io/s3/javelin/public/hub/images/apple-touch-icon-57x57-b572ef8093.png",
         "searchurl": "https://www.bloomberg.com/live/us",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #03 - Bloomberg TV (WebCast)",
-        "iconurl": "https://assets.bwbx.io/s3/javelin/public/hub/images/apple-touch-icon-57x57-b572ef8093.png",
-        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9iYmxpdmUtbGl2ZXByb2R1c2Vhc3QuaHMubGxud2QubmV0L2J0di9kZXNrdG9wL3VzX2xpdmUubTN1OA%253D%253D",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
@@ -100,14 +76,6 @@
         "shortname": "video - live TV #05 - ABC News (Australia)",
         "iconurl": "http://www.abc.net.au/favicon.ico",
         "searchurl": "http://www.abc.net.au/news/newschannel/",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #05 - ABC News (Australia: WebCast)",
-        "iconurl": "http://www.abc.net.au/favicon.ico",
-        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9hYmMtaXZpZXctbWVkaWFwYWNrYWdlc3RyZWFtcy0xLmFrYW1haXplZC5uZXQvb3V0L3YxLzUwMzQ1YmYzNWY2NjQ3Mzk5MTJmMGIyNTVjMTcyYWU5L2luZGV4Lm0zdTg%253D",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
@@ -137,25 +105,9 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #06.03 - LiveNewsOn - MSNBC (WebCast)",
-        "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
-        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZW1zbmJjLWxoLmFrYW1haWhkLm5ldC9pL25iY21zbmJjXzFAMTIyNTMyL21hc3Rlci5tM3U4",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
         "shortname": "video - live TV #06.04 - LiveNewsOn - FOX News",
         "iconurl": "http://global.fncstatic.com/static/orion/styles/img/fox-news/favicons/favicon.ico",
         "searchurl": "http://www.livenewson.com/american/fox-news-channel.html",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #07.00 - TVCatchup - channels",
-        "iconurl": "http://www.tvcatchup.com/favico.ico",
-        "searchurl": "http://www.tvcatchup.com/channels",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
@@ -265,50 +217,10 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.00.01 - MLB Network - schedule of upcoming games",
-        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
-        "searchurl": "http://m.mlb.com/network/shows/?id=live_games",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #08.00.02 - MLB Network - program guide (Eastern Time)",
-        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
-        "searchurl": "http://m.mlb.com/network/tv-schedule/",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
         "shortname": "video - live TV #08.01 - MLB Network",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "x-searchurl": "https://www.mlbstream.io/mlb-network-live/stream-1",
         "searchurl": "https://www.mlbstream.io/embed/294437/1/",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #08.01 - MLB Network (WebCast)",
-        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
-        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9tbGJsaXZlLWFrYy5tbGIuY29tL2xzMDEvbWxiYW0vbWxiX25ldHdvcmsvTkVUV09SS19MSU5FQVJfMS9tYXN0ZXJfd2lyZWQubTN1OA%253D%253D",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #09.00.01 - ESPN - schedule: MLB",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "http://www.espn.com/mlb/schedule",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #09.00.02 - ESPN - schedule: Boston Red Sox",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "http://www.espn.com/mlb/team/schedule/_/name/bos",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
@@ -445,14 +357,6 @@
         "shortname": "video - TV and movies #11 - People TV",
         "iconurl": "https://people.com/favicon.ico",
         "searchurl": "https://people.com/peopletv/video/live/",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 3,
-        "isdefault": 0
-    }, {
-        "shortname": "video - TV and movies #12.00 - Pluto TV - program guide",
-        "iconurl": "http://pluto.tv/assets/images/favicons/favicon.png",
-        "searchurl": "http://pluto.tv/watch",
         "method": "get",
         "encoding": "undefined",
         "position": 3,

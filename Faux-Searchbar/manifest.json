@@ -1,7 +1,7 @@
 {
    "name": "Faux Searchbar",
    "description": "A tool to easily describe and query custom search engines.",
-   "version": "0.2.0",
+   "version": "0.3.0",
    "icons": {
        "16": "img/icon16.png",
        "48": "img/icon48.png",

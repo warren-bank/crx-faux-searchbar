@@ -1,0 +1,52 @@
+{
+    "restore": "append",
+    "searchengines": [{
+        "shortname": "video - live TV #09.01 - ESPN (HLS-Proxy: arconaitv.us)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.arconaitv.us/stream.php?id=40",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.02 - ESPN (HLS-Proxy: vipleague.cc)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espn-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.03 - ESPN 2 (HLS-Proxy: vipleague.cc)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espn-2-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.04 - ESPNU college athletics (HLS-Proxy: vipleague.cc)",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espnu-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #10.01 - NBA TV (HLS-Proxy: vipleague.cc)",
+        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
+        "searchurl": "https://www.vipleague.cc/nba-tv-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.01 - NFL Network (HLS-Proxy: vipleague.cc)",
+        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
+        "searchurl": "https://www.vipleague.cc/nfl-network-streaming-link-1",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }]
+}

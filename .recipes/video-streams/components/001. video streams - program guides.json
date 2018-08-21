@@ -1,0 +1,68 @@
+{
+    "restore": "append",
+    "searchengines": [{
+        "shortname": "video - live TV #07.00 - TVCatchup - channels",
+        "iconurl": "http://www.tvcatchup.com/favico.ico",
+        "searchurl": "http://www.tvcatchup.com/channels",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.00.1 - MLB Network - schedule of upcoming games",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "http://m.mlb.com/network/shows/?id=live_games",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.00.2 - MLB Network - program guide (Eastern Time)",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "http://m.mlb.com/network/tv-schedule/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.00.1 - ESPN - schedule: MLB",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "http://www.espn.com/mlb/schedule",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.00.2 - ESPN - schedule: Boston Red Sox",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "http://www.espn.com/mlb/team/schedule/_/name/bos",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #10.00 - NBA TV - schedule",
+        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
+        "searchurl": "http://www.nba.com/nbatv/schedule",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.00 - NFL Network - schedule",
+        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
+        "searchurl": "http://www.nfl.com/nflnetwork/networkschedule",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #12.00 - Pluto TV - program guide",
+        "iconurl": "http://pluto.tv/assets/images/favicons/favicon.png",
+        "searchurl": "http://pluto.tv/watch",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }]
+}
