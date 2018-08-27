@@ -6,7 +6,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly93d3cuY2JzbmV3cy5jb20vY29tbW9uL3ZpZGVvL2RhaV9wcm9kLm0zdTg%253D",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #02 - ABC News [direct]",
@@ -14,7 +14,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9hYmNsaXZlMi1saC5ha2FtYWloZC5uZXQvaS9hYmNfbGl2ZTExQDQyMzQwNC9tYXN0ZXIubTN1OA%253D%253D",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #03 - Bloomberg TV [direct]",
@@ -22,7 +22,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9iYmxpdmUtbGl2ZXByb2R1c2Vhc3QuaHMubGxud2QubmV0L2J0di9kZXNrdG9wL3VzX2xpdmUubTN1OA%253D%253D",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #05 - ABC News (Australia) [direct]",
@@ -30,7 +30,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9hYmMtaXZpZXctbWVkaWFwYWNrYWdlc3RyZWFtcy0xLmFrYW1haXplZC5uZXQvb3V0L3YxLzUwMzQ1YmYzNWY2NjQ3Mzk5MTJmMGIyNTVjMTcyYWU5L2luZGV4Lm0zdTg%253D",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.03 - LiveNewsOn - MSNBC [direct]",
@@ -38,10 +38,79 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZW1zbmJjLWxoLmFrYW1haWhkLm5ldC9pL25iY21zbmJjXzFAMTIyNTMyL21hc3Rlci5tM3U4",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.01 - MLB Network [direct]",
+        "shortname": "video - live TV #09.01 - Zahistation - CNN: US [direct]",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly8yMjAxLmphbmp1YXBsYXllci5jb206ODA4OC9saXZlL2Nubl9saXZlc3RyZWFtaW5nL3BsYXlsaXN0Lm0zdTg%252FaWQ9NzEyMDImcGs9ZDY3MjhlYWQ2OTlkMGJkYjU1ZDQ1YzllNDhlZDJkOTJiYTNlNTQ0NWQzMjlhNDdiM2VkOTdkNzVlYmE2NTJkNg%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.02 - Zahistation - CNN: International [direct]",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly8yMjAyLmphbmp1YXBsYXllci5jb206ODA4OC9saXZlL2Nubl9saXZlc3RyZWFtaW5nL3BsYXlsaXN0Lm0zdTg%252FaWQ9NzEyMDImcGs9ZDY3MjhlYWQ2OTlkMGJkYjU1ZDQ1YzllNDhlZDJkOTJiYTNlNTQ0NWQzMjlhNDdiM2VkOTdkNzVlYmE2NTJkNg%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #10.01 - iBrod - The CW [direct]",
+        "iconurl": "http://www.cwtv.com/images/cw/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9jZG5hcGlzZWMua2FsdHVyYS5jb20vcC8yMzA2MTIxL3NwLzIzMDYxMjEwMC9wbGF5TWFuaWZlc3QvZW50cnlJZC8xX29nZ3UxZGJjL2Zvcm1hdC9hcHBsZWh0dHAvcHJvdG9jb2wvaHR0cHMvdWlDb25mSWQvNDAwNDE5ODEvYS5tM3U4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.01 - VIP League (HLS-Proxy) - ABC [direct]",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/oiTgbz3SXPrK8lLOk67B/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ABC.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.02 - VIP League (HLS-Proxy) - NBC [direct]",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/xczPmTIQ75yiKfXZJjo6/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NBC.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.03 - VIP League (HLS-Proxy) - CBS [direct]",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/cjbq9yfp8WGvsRBkChFi/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] CBS.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.04 - VIP League (HLS-Proxy) - FOX [direct]",
+        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/WDramgSAxuUV2pQjs9RH/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] FOX.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.05 - VIP League (HLS-Proxy) - HBO [direct]",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/6rIAHeghLaYNOscpJQW8/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] HBO.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #03 - MLB Network [direct]",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9tbGJsaXZlLWFrYy5tbGIuY29tL2xzMDEvbWxiYW0vbWxiX25ldHdvcmsvTkVUV09SS19MSU5FQVJfMS9tYXN0ZXJfd2lyZWQubTN1OA%253D%253D",
         "method": "get",
@@ -49,91 +118,94 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.02 - ESPN (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #04.01 - UnimasGO - NBC Sports: Bay Area [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbmJheWFyZWEtaS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5NzkxL0NTTmJheWFyZWF4LzQyOTZrL3Byb2cubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.02 - UnimasGO - NBC Sports: California [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbmNhbGlmb3JuaWEtaS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5NzkyL0NTTmNhbGlmb3JuaWF4LzQyOTZrL3Byb2cubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.03 - UnimasGO - NBC Sports: Chicago [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbmNoaWNhZ28taS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5NzkzL0NTTmNoaWNhZ294LzQyOTZrL3Byb2cubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.04 - UnimasGO - NBC Sports: New England [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbm5ld2VuZ2xhbmQtaS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5Nzk1L0NTTm5ld2VuZ2xhbmR4LzQyOTZrL3Byb2cubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.05 - UnimasGO - NBC Sports: Northwest [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbm5vcnRod2VzdC1pLmFrYW1haWhkLm5ldC9obHMvbGl2ZS8yMTk3OTYvQ1NObm9ydGh3ZXN0eC80Mjk2ay9wcm9nLm0zdTg%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.06 - UnimasGO - NBC Sports: Philadelphia [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbnBoaWxhZGVscGgtaS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5Nzk0L0NTTnBoaWxhZGVscGhpYXgvNDI5NmsvcHJvZy5tM3U4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.01 - VIP League (HLS-Proxy) - ESPN [direct]",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/RKUtex2CodYBuOkTGq6A/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPN",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPN.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.03 - ESPN 2 (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.02 - VIP League (HLS-Proxy) - ESPN 2 [direct]",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/Qy4A0r6jvBxeaoIpsgZW/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPN2",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPN2.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.04 - ESPNU college athletics (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.03 - VIP League (HLS-Proxy) - ESPNU college athletics [direct]",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/NbBqJFshMLxlU95SWiDX/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPNU",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPNU.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #10.01 - NBA TV (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.04 - VIP League (HLS-Proxy) - NBA TV [direct]",
         "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/J0SrB4amf3YORDoMtwvs/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NBA%20TV",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NBA TV.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #11.01 - NFL Network (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.05 - VIP League (HLS-Proxy) - NFL Network [direct]",
         "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/4ornXB7aDZHLViI6JS0b/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NFL%20Network",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #12 - ABC (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/oiTgbz3SXPrK8lLOk67B/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ABC",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #13 - NBC (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/xczPmTIQ75yiKfXZJjo6/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NBC",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #14 - CBS (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/cjbq9yfp8WGvsRBkChFi/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/CBS",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #15 - FOX (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/WDramgSAxuUV2pQjs9RH/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/FOX",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #16 - HBO (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/6rIAHeghLaYNOscpJQW8/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/HBO",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NFL Network.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,

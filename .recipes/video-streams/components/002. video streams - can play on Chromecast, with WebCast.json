@@ -1,52 +1,12 @@
 {
     "restore": "append",
     "searchengines": [{
-        "shortname": "video - educational lectures #01 - MIT OpenCourseWare (OCW)",
-        "iconurl": "https://ocw.mit.edu/images/apple-touch-icon.png",
-        "searchurl": "https://archive.org/details/mit_ocw?and[]=mediatype:%22movies%22&and[]={searchTerms}",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
-        "shortname": "video - educational lectures #02 - Open Yale Courses",
-        "iconurl": "https://oyc.yale.edu/sites/all/themes/yalenew_base/images/favicon.ico",
-        "searchurl": "https://oyc.yale.edu/search/node/{searchTerms}",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
-        "shortname": "video - educational lectures #03 - University of California, Irvine - OpenChemistry",
-        "iconurl": "https://ps.uci.edu/sites/all/themes/psbase/img/favicon.ico",
-        "searchurl": "https://ps.uci.edu/content/openchemistry-lectures",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
-        "shortname": "video - educational lectures #04 - VideoLectures",
-        "iconurl": "http://static.videolectures.net/r.1483388978//custom/favicon.ico",
-        "searchurl": "http://videolectures.net/site/search/?q={searchTerms}",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
-        "shortname": "video - educational lectures #05 - TED Talks",
-        "iconurl": "https://pa.tedcdn.com/favicon.ico",
-        "searchurl": "https://www.ted.com/search?cat=talks&q={searchTerms}",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
         "shortname": "video - live TV #01 - CBS News",
         "iconurl": "https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico",
         "searchurl": "https://www.cbsnews.com/live/",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #02 - ABC News",
@@ -54,7 +14,7 @@
         "searchurl": "https://abcnews.go.com/Live",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #03 - Bloomberg TV",
@@ -62,7 +22,7 @@
         "searchurl": "https://www.bloomberg.com/live/us",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #04 - Sky News (UK)",
@@ -70,7 +30,7 @@
         "searchurl": "https://news.sky.com/watch-live",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #05 - ABC News (Australia)",
@@ -78,7 +38,7 @@
         "searchurl": "http://www.abc.net.au/news/newschannel/",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.01 - LiveNewsOn - CNN",
@@ -86,7 +46,7 @@
         "searchurl": "http://www.livenewson.com/american/cnn-news-usa.html",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.02 - LiveNewsOn - HLN (CNN2 Headline News)",
@@ -94,7 +54,7 @@
         "searchurl": "http://www.livenewson.com/american/hln.html",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.03 - LiveNewsOn - MSNBC",
@@ -102,7 +62,7 @@
         "searchurl": "http://www.livenewson.com/american/msnbc.html",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.04 - LiveNewsOn - FOX News",
@@ -110,117 +70,861 @@
         "searchurl": "http://www.livenewson.com/american/fox-news-channel.html",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.01 - TVCatchup - BBC News (UK)",
+        "shortname": "video - live TV #07.01 - FirstOne TV - ABC",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/ABC--83",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.02 - FirstOne TV - NBC",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NBC-54",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.03 - FirstOne TV - CBS",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/CBS-85",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.04 - FirstOne TV - FOX",
+        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Fox-88",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.05 - FirstOne TV - MSNBC",
+        "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/MSNBC-66",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.06 - FirstOne TV - PBS",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/PBS-81",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.07 - FirstOne TV - The CW",
+        "iconurl": "http://www.cwtv.com/images/cw/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/The-CW-Television-Network-35",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.08 - FirstOne TV - SyFy",
+        "iconurl": "http://www.syfy.com/sites/syfy/themes/wired/favicons/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Syfy-63",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.09 - FirstOne TV - USA Network",
+        "iconurl": "http://www.usanetwork.com/sites/usanetwork/themes/aurora_usa/images/usa_favicon_16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/USA-Network-92",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.10 - FirstOne TV - FX",
+        "iconurl": "https://www.fxnetworks.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/FX-91",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.11 - FirstOne TV - FXX",
+        "iconurl": "https://www.fxnetworks.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/FXX-101",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.12 - FirstOne TV - Showtime",
+        "iconurl": "http://www.sho.com/assets/images/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Showtime-60",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.13 - FirstOne TV - Showtime 2",
+        "iconurl": "http://www.sho.com/assets/images/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Showtime-2-102",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.14 - FirstOne TV - HBO",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Home-Box-Office-(HBO)--96",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.15 - FirstOne TV - HBO Signature",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/HBO-Signature-107",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.16 - FirstOne TV - HBO Comedy",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/HBO-Comedy-108",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.17 - FirstOne TV - A&E",
+        "iconurl": "https://bundler.watch.aetnd.com/images/aetv/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/A+E--21",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.18 - FirstOne TV - Starz",
+        "iconurl": "https://www.starz.com/assets/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Starz-62",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.19 - FirstOne TV - Starz Encore",
+        "iconurl": "https://www.starz.com/assets/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Starz-Encore-106",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.20 - FirstOne TV - Starz Edge",
+        "iconurl": "https://www.starz.com/assets/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Starz-Edge-105",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.21 - FirstOne TV - Bravo",
+        "iconurl": "http://www.bravotv.com/sites/nbcubravotv/themes/custom/reality/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Bravo-30",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.22 - FirstOne TV - History Channel",
+        "iconurl": "https://bundler.watch.aetnd.com/images/history/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/History-48",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.23 - FirstOne TV - Discovery Channel",
+        "iconurl": "https://www.discovery.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Discovery-Channel-37",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.24 - FirstOne TV - National Geographic",
+        "iconurl": "https://www.nationalgeographic.com/etc/designs/platform/refresh/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/National-Geographic--52",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.25 - FirstOne TV - TLC",
+        "iconurl": "https://www.tlc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/TLC-65",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.26 - FirstOne TV - HGTV",
+        "iconurl": "https://www.hgtv.com/etc/clientlibs/assets/images/hgtv/favicon-96x96.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/HGTV-47",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.27 - FirstOne TV - AMC",
+        "iconurl": "https://www.amc.com/wp-content/themes/amc-tv/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/AMC-25",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.28 - FirstOne TV - Sundance TV",
+        "iconurl": "https://www.sundancetv.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/SundanceTV-104",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.29 - FirstOne TV - C-SPAN",
+        "iconurl": "https://static.c-span.org/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/C-SPAN-76",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.30 - FirstOne TV - C-SPAN 2",
+        "iconurl": "https://static.c-span.org/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/C-SPAN-2-109",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.31 - FirstOne TV - C-SPAN 3",
+        "iconurl": "https://static.c-span.org/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/C-SPAN-3-110",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.32 - FirstOne TV - NASA TV",
+        "iconurl": "https://www.nasa.gov/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NASA-TV-12",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.33 - FirstOne TV - BBC World News",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-World-News-3",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.34 - FirstOne TV - Euronews",
+        "iconurl": "http://www.euronews.com/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Euronews-29",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.35 - FirstOne TV - BBC News",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-News-2",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.36 - FirstOne TV - London Live",
+        "iconurl": "http://www.londonlive.co.uk/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/London-Live--46",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.37 - FirstOne TV - BBC One",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-One--4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.38 - FirstOne TV - BBC Two",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-Two-5",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.39 - FirstOne TV - BBC Four",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-Four-7",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.40 - FirstOne TV - Channel 4",
+        "iconurl": "https://www.channel4.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Channel-4--11",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.41 - FirstOne TV - More4",
+        "iconurl": "https://www.channel4.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/More4--25",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.42 - FirstOne TV - Channel 5",
+        "iconurl": "http://www.channel5.com/wp-content/themes/channel5/images/favicon.gif",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Channel-5--31",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.43 - FirstOne TV - ITV 1",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITV1--21",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.44 - FirstOne TV - ITV 2",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITV2-22",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.45 - FirstOne TV - ITV 3",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITV3-23",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.46 - FirstOne TV - ITV 4",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITV4-24",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.47 - FirstOne TV - ITVBe",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITVBe-110",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.48 - FirstOne TV - CBS Action",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/CBS-Action-67",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.49 - FirstOne TV - CBS Drama",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/CBS-Drama-68",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.50 - FirstOne TV - CBS Reality",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/CBS-Reality-69",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.51 - FirstOne TV - MTV",
+        "iconurl": "http://www.mtv.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/MTV-85",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.52 - FirstOne TV - MTV Classic",
+        "iconurl": "http://www.mtv.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/MTV-Classic-57",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.53 - FirstOne TV - Comedy Central",
+        "iconurl": "http://www.cc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Comedy-Central-56",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.54 - FirstOne TV - Spike",
+        "iconurl": "http://www.paramountnetwork.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Spike-93",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.55 - FirstOne TV - Movies4Men",
+        "iconurl": "https://www.movies4men.co.uk/sites/all/themes/responsive/responsive_m4m/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Movies4Men-26",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.56 - FirstOne TV - Lifetime",
+        "iconurl": "https://bundler.watch.aetnd.com/images/lifetime/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Lifetime-83",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.57 - FirstOne TV - E!",
+        "iconurl": "https://www.eonline.com/resources/images/misc/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/E!--79",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.58 - FirstOne TV - Food Network",
+        "iconurl": "https://www.foodnetwork.com/etc/clientlibs/assets/images/food/favicon-32x32.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Food-Network-107",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.59 - FirstOne TV - Discovery Science",
+        "iconurl": "https://www.discovery.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Discovery-Science-41",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.60 - FirstOne TV - Discovery History",
+        "iconurl": "https://www.discovery.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Discovery-History-72",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.61 - FirstOne TV - History Channel",
+        "iconurl": "https://bundler.watch.aetnd.com/images/history/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/History-44",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.62 - FirstOne TV - TLC",
+        "iconurl": "https://www.tlc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/TLC-95",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.63 - FirstOne TV - Sony Movie Channel",
+        "iconurl": "https://www.sonymoviechannel.com/sites/all/themes/responsive/responsive_smc_us/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Sony-Movie-Channel-92",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.64 - FirstOne TV - True Movies 1",
+        "iconurl": "https://www.truechannels.tv/sites/all/themes/responsive/responsive_truetv/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/True-Movies-1-96",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.65 - FirstOne TV - True Movies 2",
+        "iconurl": "https://www.truechannels.tv/sites/all/themes/responsive/responsive_truetv/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/True-Movies-2-97",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.66 - FirstOne TV - BBC Parliament",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-Parliament-101",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.01 - TVCatchup - BBC News (UK)",
         "iconurl": "https://www.bbc.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/bbcnews",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.02 - TVCatchup - BBC One (UK)",
+        "shortname": "video - live TV #08.02 - TVCatchup - BBC One (UK)",
         "iconurl": "https://www.bbc.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/bbcone",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.03 - TVCatchup - BBC Two (UK)",
+        "shortname": "video - live TV #08.03 - TVCatchup - BBC Two (UK)",
         "iconurl": "https://www.bbc.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/bbctwo",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.04 - TVCatchup - BBC Four (UK)",
+        "shortname": "video - live TV #08.04 - TVCatchup - BBC Four (UK)",
         "iconurl": "https://www.bbc.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/bbcfour",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.05 - TVCatchup - ITV (UK)",
+        "shortname": "video - live TV #08.05 - TVCatchup - ITV (UK)",
         "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/itv",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.06 - TVCatchup - ITV 2 (UK)",
+        "shortname": "video - live TV #08.06 - TVCatchup - ITV 2 (UK)",
         "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/itv2",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.07 - TVCatchup - ITV 3 (UK)",
+        "shortname": "video - live TV #08.07 - TVCatchup - ITV 3 (UK)",
         "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/itv3",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.08 - TVCatchup - ITV 4 (UK)",
+        "shortname": "video - live TV #08.08 - TVCatchup - ITV 4 (UK)",
         "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/itv4",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.09 - TVCatchup - Channel 4 (UK)",
+        "shortname": "video - live TV #08.09 - TVCatchup - Channel 4 (UK)",
         "iconurl": "https://www.channel4.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/channel4",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.10 - TVCatchup - Channel 5 (UK)",
+        "shortname": "video - live TV #08.10 - TVCatchup - Channel 5 (UK)",
         "iconurl": "http://www.channel5.com/wp-content/themes/channel5/images/favicon.gif",
         "searchurl": "http://www.tvcatchup.com/watch/five",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.11 - TVCatchup - Food Network",
+        "shortname": "video - live TV #08.11 - TVCatchup - Food Network",
         "iconurl": "https://www.foodnetwork.com/etc/clientlibs/assets/images/food/favicon-32x32.png",
         "searchurl": "http://www.tvcatchup.com/watch/foodnetwork",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.12 - TVCatchup - CBS Reality",
+        "shortname": "video - live TV #08.12 - TVCatchup - CBS Reality",
         "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/cbsreality",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.13 - TVCatchup - CBS Action",
+        "shortname": "video - live TV #08.13 - TVCatchup - CBS Action",
         "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/cbsaction",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.01 - Zahistation - CNN: US",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "http://www.zahitvstations.com/watch-cnn-usa-live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.02 - Zahistation - CNN: International",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "http://www.zahitvstations.com/watch-cnn-international-live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #10.01 - iBrod - The CW",
+        "iconurl": "http://www.cwtv.com/images/cw/favicon.ico",
+        "searchurl": "http://www.ibrod.tv/cw-live-stream.html",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.01 - FirstOne TV - ESPN",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/ESPN-40",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.01 - MLB Network",
+        "shortname": "video - live sports #02.02 - FirstOne TV - ESPN 2",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/ESPN-2-41",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.03 - FirstOne TV - ESPN News",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/ESPN-News-87",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.04 - FirstOne TV - MLB Network",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/MLB-Network-51",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.05 - FirstOne TV - NBA TV",
+        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NBA-TV-53",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.06 - FirstOne TV - NFL Network",
+        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NFL-Network-56",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.07 - FirstOne TV - NBC Sports",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NBCSN--55",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.08 - FirstOne TV - FOX Sports",
+        "iconurl": "https://b.fssta.com/sta/images/60x60.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Fox-Sports-1-(FS1)-79",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.09 - FirstOne TV - Golf Channel",
+        "iconurl": "https://www.golfchannel.com/public/images/favicon/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Golf-Channel-44",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.10 - FirstOne TV - WWE Network (pro wrestling)",
+        "iconurl": "https://www.wwe.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/WWE-Network-67",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.11 - FirstOne TV - Eurosport 1",
+        "iconurl": "https://layout.eurosport.com/i/v8/favicon/wen/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Eurosport-1--34",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.12 - FirstOne TV - Eurosport 2",
+        "iconurl": "https://layout.eurosport.com/i/v8/favicon/wen/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Eurosport-2-35",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.13 - FirstOne TV - Premier Sports (UK)",
+        "iconurl": "http://www.premiersports.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Premier-Sports-89",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.14 - FirstOne TV - MUTV (Manchester United football club)",
+        "iconurl": "https://mutv.manutd.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/MUTV-(Manchester-United-F.C.)-86",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.15 - FirstOne TV - Chelsea TV (Chelsea football club)",
+        "iconurl": "https://www.chelseafc.com/assets/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Chelsea-TV--70",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.16 - FirstOne TV - TSN 1 (Canada)",
+        "iconurl": "https://images.tsn.ca/favicon32.ico",
+        "searchurl": "https://www.firstonetv.net/Live/Canada/The-Sports-Network-1-(TSN-1)-12",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.17 - FirstOne TV - TSN 2 (Canada)",
+        "iconurl": "https://images.tsn.ca/favicon32.ico",
+        "searchurl": "https://www.firstonetv.net/Live/Canada/The-Sports-Network-2-(TSN-2)-13",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.18 - FirstOne TV - TSN 3 (Canada)",
+        "iconurl": "https://images.tsn.ca/favicon32.ico",
+        "searchurl": "https://www.firstonetv.net/Live/Canada/The-Sports-Network-3-(TSN-3)-14",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #03 - MLB Network",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "x-searchurl": "https://www.mlbstream.io/mlb-network-live/stream-1",
         "searchurl": "https://www.mlbstream.io/embed/294437/1/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.01 - UnimasGO - NBC Sports: Bay Area",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNBayarea.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.02 - UnimasGO - NBC Sports: California",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNCalifornia.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.03 - UnimasGO - NBC Sports: Chicago",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNChicago.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.04 - UnimasGO - NBC Sports: New England",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNNewengland.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.05 - UnimasGO - NBC Sports: Northwest",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNNorthwest.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.06 - UnimasGO - NBC Sports: Philadelphia",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNPhiladelphia.php",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
@@ -234,9 +938,17 @@
         "position": 3,
         "isdefault": 0
     }, {
-        "shortname": "video - TV and movies #02 - NBC",
+        "shortname": "video - TV and movies #02.00 - NBC",
         "iconurl": "https://www.nbc.com/generetic/favicon.ico",
         "searchurl": "https://www.nbc.com/video",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #02.01 - NBC - Meet The Press (weekly: Sunday morning)",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "https://www.nbc.com/meet-the-press/episodes",
         "method": "get",
         "encoding": "undefined",
         "position": 3,
@@ -370,7 +1082,7 @@
         "position": 3,
         "isdefault": 0
     }, {
-        "shortname": "video - TV and movies #12.02 - Pluto TV - MSNBC (politics)",
+        "shortname": "video - TV and movies #12.02 - Pluto TV - MSNBC",
         "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
         "searchurl": "http://pluto.tv/watch/nbc-news-and-msnbc",
         "method": "get",
@@ -546,12 +1258,52 @@
         "position": 4,
         "isdefault": 0
     }, {
+        "shortname": "video - educational lectures #01 - MIT OpenCourseWare (OCW)",
+        "iconurl": "https://ocw.mit.edu/images/apple-touch-icon.png",
+        "searchurl": "https://archive.org/details/mit_ocw?and[]=mediatype:%22movies%22&and[]={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #02 - Open Yale Courses",
+        "iconurl": "https://oyc.yale.edu/sites/all/themes/yalenew_base/images/favicon.ico",
+        "searchurl": "https://oyc.yale.edu/search/node/{searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #03 - University of California, Irvine - OpenChemistry",
+        "iconurl": "https://ps.uci.edu/sites/all/themes/psbase/img/favicon.ico",
+        "searchurl": "https://ps.uci.edu/content/openchemistry-lectures",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #04 - VideoLectures",
+        "iconurl": "http://static.videolectures.net/r.1483388978//custom/favicon.ico",
+        "searchurl": "http://videolectures.net/site/search/?q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #05 - TED Talks",
+        "iconurl": "https://pa.tedcdn.com/favicon.ico",
+        "searchurl": "https://www.ted.com/search?cat=talks&q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
         "shortname": "video - clips #01 - Vimeo",
         "iconurl": "https://f.vimeocdn.com/images_v6/favicon.ico",
         "searchurl": "https://vimeo.com/search?price=free&q={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #02 - Flickr",
@@ -559,7 +1311,7 @@
         "searchurl": "https://www.flickr.com/search/?media=videos&text={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #03 - Metacafe",
@@ -567,7 +1319,7 @@
         "searchurl": "http://www.metacafe.com/videos_about/{searchTerms}?channel_filter=videos",
         "method": "get",
         "encoding": "other",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #04 - Dailymotion",
@@ -575,7 +1327,7 @@
         "searchurl": "https://www.dailymotion.com/search/{searchTerms}",
         "method": "get",
         "encoding": "other",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #05 - Viewster",
@@ -583,7 +1335,7 @@
         "searchurl": "http://www.viewster.com/search/{searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #06 - Break",
@@ -591,7 +1343,7 @@
         "searchurl": "http://www.break.com/?s={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #07 - StupidVideos",
@@ -599,7 +1351,7 @@
         "searchurl": "http://www.stupidvideos.com/?s={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - anime #01 - KissAnime",
@@ -607,7 +1359,7 @@
         "searchurl": "http://kissanime.ru/AdvanceSearch?genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&status=&animeName={searchTerms}",
         "method": "post",
         "encoding": "undefined",
-        "position": 6,
+        "position": 7,
         "isdefault": 0
     }, {
         "shortname": "video - anime #02 - AnimeHeaven",
@@ -615,7 +1367,7 @@
         "searchurl": "http://animeheaven.eu/search.php?q={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 6,
+        "position": 7,
         "isdefault": 0
     }, {
         "shortname": "video - anime #03 - Animefreak",
@@ -623,7 +1375,7 @@
         "searchurl": "http://animefreak.tv/search/node/type%3Abook%20{searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 6,
+        "position": 7,
         "isdefault": 0
     }, {
         "shortname": "video - anime #04 - Soul Anime",
@@ -631,7 +1383,7 @@
         "searchurl": "http://ww5.soul-anime.us/search.php?search={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 6,
+        "position": 7,
         "isdefault": 0
     }]
 }

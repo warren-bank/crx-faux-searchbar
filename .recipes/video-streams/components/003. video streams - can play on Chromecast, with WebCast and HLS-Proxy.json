@@ -1,99 +1,235 @@
 {
     "restore": "append",
     "searchengines": [{
-        "shortname": "video - live TV #09.01 - ESPN (HLS-Proxy: arconaitv.us)",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "https://www.arconaitv.us/stream.php?id=40",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #09.02 - ESPN (HLS-Proxy: vipleague.cc)",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "https://www.vipleague.cc/espn-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPN",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #09.03 - ESPN 2 (HLS-Proxy: vipleague.cc)",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "https://www.vipleague.cc/espn-2-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPN2",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #09.04 - ESPNU college athletics (HLS-Proxy: vipleague.cc)",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "https://www.vipleague.cc/espnu-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPNU",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #10.01 - NBA TV (HLS-Proxy: vipleague.cc)",
-        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
-        "searchurl": "https://www.vipleague.cc/nba-tv-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NBA%20TV",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #11.01 - NFL Network (HLS-Proxy: vipleague.cc)",
-        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
-        "searchurl": "https://www.vipleague.cc/nfl-network-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NFL%20Network",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #12 - ABC (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live TV #11.01 - VIP League (HLS-Proxy) - ABC",
         "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
         "searchurl": "https://www.vipleague.cc/abc-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ABC",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ABC.bat",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #13 - NBC (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live TV #11.02 - VIP League (HLS-Proxy) - NBC",
         "iconurl": "https://www.nbc.com/generetic/favicon.ico",
         "searchurl": "https://www.vipleague.cc/nbc-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NBC",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NBC.bat",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #14 - CBS (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live TV #11.03 - VIP League (HLS-Proxy) - CBS",
         "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
         "searchurl": "https://www.vipleague.cc/cbs-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/CBS",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] CBS.bat",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #15 - FOX (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live TV #11.04 - VIP League (HLS-Proxy) - FOX",
         "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
         "searchurl": "https://www.vipleague.cc/fox--entertainment-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/FOX",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] FOX.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.05 - VIP League (HLS-Proxy) - HBO",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/hbo-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] HBO.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.01 - Streamlive (HLS-Proxy) - CNN",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/46461/CNN-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.02 - Streamlive (HLS-Proxy) - HBO",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/36674/HBO-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.03 - Streamlive (HLS-Proxy) - ABC",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "https://www.streamlive.to/info/46476/ABC-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.04 - Streamlive (HLS-Proxy) - NBC",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/57956/NBC-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.05 - Streamlive (HLS-Proxy) - CBS",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/57976/CBS-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.06 - Streamlive (HLS-Proxy) - FOX",
+        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/56002/Fox-Network-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.07 - Streamlive (HLS-Proxy) - FOX News",
+        "iconurl": "http://global.fncstatic.com/static/orion/styles/img/fox-news/favicons/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/46465/Fox-News-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.08 - Streamlive (HLS-Proxy) - AMC",
+        "iconurl": "https://www.amc.com/wp-content/themes/amc-tv/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/46209/AMC-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.09 - Streamlive (HLS-Proxy) - Disney Channel",
+        "iconurl": "https://disneychannel.disney.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/38804/Disney-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.10 - Streamlive (HLS-Proxy) - Nickelodeon",
+        "iconurl": "http://www.nick.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/71112/Nickelodeon",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.01 - VIP League (HLS-Proxy) - ESPN",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espn-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPN.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #16 - HBO (HLS-Proxy: vipleague.cc)",
-        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
-        "searchurl": "https://www.vipleague.cc/hbo-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/HBO",
+        "shortname": "video - live sports #05.02 - VIP League (HLS-Proxy) - ESPN 2",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espn-2-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPN2.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.03 - VIP League (HLS-Proxy) - ESPNU college athletics",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/espnu-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPNU.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.04 - VIP League (HLS-Proxy) - NBA TV",
+        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
+        "searchurl": "https://www.vipleague.cc/nba-tv-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NBA TV.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.05 - VIP League (HLS-Proxy) - NFL Network",
+        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
+        "searchurl": "https://www.vipleague.cc/nfl-network-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NFL Network.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.06.1 - NFL Stream (HLS-Proxy)",
+        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
+        "searchurl": "https://www.nflstream.io/",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/02. nflstream.io/[http, port 8080] 2018-08-24 Patriots vs Panthers.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.06.2 - MLB Stream (HLS-Proxy)",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "https://www.mlbstream.io/",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/03. mlbstream.io/[http, port 8080] 2018-08-25 Red Sox vs Rays.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.06.3 - NBA Stream (HLS-Proxy)",
+        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
+        "searchurl": "https://www.nbastream.io/",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01. livecamtv.me/.channels",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #06.01 - Streamlive (HLS-Proxy) - ESPN",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/48051/ESPN-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #06.02 - Streamlive (HLS-Proxy) - ESPN 2",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/57977/ESPN-2-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #07 - Arconai TV (HLS-Proxy) - ESPN",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.arconaitv.us/stream.php?id=40",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/00. generic use cases/[http, port 8080] log level 2, prefetch 20.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,

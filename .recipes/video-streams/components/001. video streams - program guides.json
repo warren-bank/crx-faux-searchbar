@@ -1,15 +1,76 @@
 {
     "restore": "append",
     "searchengines": [{
-        "shortname": "video - live TV #07.00 - TVCatchup - channels",
+        "shortname": "video - live TV #07.00.1 - FirstOne TV - list of countries",
+        "iconurl": "https://www.firstonetv.net/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live",
+        "x-userscript": "https://github.com/warren-bank/crx-FirstOne-TV/releases/download/v0.2.1/FirstOne-TV.crx",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.00.2 - FirstOne TV - list of channels: USA",
+        "iconurl": "https://www.firstonetv.net/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)",
+        "x-userscript": "https://github.com/warren-bank/crx-FirstOne-TV/releases/download/v0.2.1/FirstOne-TV.crx",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.00.3 - FirstOne TV - list of channels: UK",
+        "iconurl": "https://www.firstonetv.net/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom",
+        "x-userscript": "https://github.com/warren-bank/crx-FirstOne-TV/releases/download/v0.2.1/FirstOne-TV.crx",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.00.4 - FirstOne TV - list of channels: Canada",
+        "iconurl": "https://www.firstonetv.net/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/Canada",
+        "x-userscript": "https://github.com/warren-bank/crx-FirstOne-TV/releases/download/v0.2.1/FirstOne-TV.crx",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.00 - TVCatchup - channels",
         "iconurl": "http://www.tvcatchup.com/favico.ico",
         "searchurl": "http://www.tvcatchup.com/channels",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.00.1 - MLB Network - schedule of upcoming games",
+        "shortname": "video - live TV #10.00 - iBrod - channels",
+        "iconurl": "http://www.ibrod.tv/favicon.ico",
+        "searchurl": "http://www.ibrod.tv/tvchans.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.00 - Streamlive - channels",
+        "iconurl": "https://www.streamlive.to/favicon.ico",
+        "searchurl": "https://www.streamlive.to/channels",
+        "x-userscript": "https://github.com/warren-bank/HLS-proxy/raw/master/.recipes/02.%20streamlive.to/.channels/streamlive.user.js",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #13.01 - misc - UstreaMix",
+        "iconurl": "https://ssl.ustreamix.com/favicon.ico",
+        "searchurl": "https://ssl.ustreamix.com/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #01.01 - game schedules - MLB Network",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "searchurl": "http://m.mlb.com/network/shows/?id=live_games",
         "method": "get",
@@ -17,15 +78,7 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.00.2 - MLB Network - program guide (Eastern Time)",
-        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
-        "searchurl": "http://m.mlb.com/network/tv-schedule/",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #09.00.1 - ESPN - schedule: MLB",
+        "shortname": "video - live sports #01.02 - game schedules - ESPN - MLB",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "http://www.espn.com/mlb/schedule",
         "method": "get",
@@ -33,7 +86,7 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.00.2 - ESPN - schedule: Boston Red Sox",
+        "shortname": "video - live sports #01.03 - game schedules - ESPN - MLB - Red Sox",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "http://www.espn.com/mlb/team/schedule/_/name/bos",
         "method": "get",
@@ -41,7 +94,7 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #10.00 - NBA TV - schedule",
+        "shortname": "video - live sports #01.04 - game schedules - NBA TV",
         "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
         "searchurl": "http://www.nba.com/nbatv/schedule",
         "method": "get",
@@ -49,7 +102,7 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #11.00 - NFL Network - schedule",
+        "shortname": "video - live sports #01.05 - game schedules - NFL Network",
         "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
         "searchurl": "http://www.nfl.com/nflnetwork/networkschedule",
         "method": "get",

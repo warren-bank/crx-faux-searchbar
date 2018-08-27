@@ -1,52 +1,12 @@
 {
     "restore": "append",
     "searchengines": [{
-        "shortname": "video - educational lectures #01 - MIT OpenCourseWare (OCW)",
-        "iconurl": "https://ocw.mit.edu/images/apple-touch-icon.png",
-        "searchurl": "https://archive.org/details/mit_ocw?and[]=mediatype:%22movies%22&and[]={searchTerms}",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
-        "shortname": "video - educational lectures #02 - Open Yale Courses",
-        "iconurl": "https://oyc.yale.edu/sites/all/themes/yalenew_base/images/favicon.ico",
-        "searchurl": "https://oyc.yale.edu/search/node/{searchTerms}",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
-        "shortname": "video - educational lectures #03 - University of California, Irvine - OpenChemistry",
-        "iconurl": "https://ps.uci.edu/sites/all/themes/psbase/img/favicon.ico",
-        "searchurl": "https://ps.uci.edu/content/openchemistry-lectures",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
-        "shortname": "video - educational lectures #04 - VideoLectures",
-        "iconurl": "http://static.videolectures.net/r.1483388978//custom/favicon.ico",
-        "searchurl": "http://videolectures.net/site/search/?q={searchTerms}",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
-        "shortname": "video - educational lectures #05 - TED Talks",
-        "iconurl": "https://pa.tedcdn.com/favicon.ico",
-        "searchurl": "https://www.ted.com/search?cat=talks&q={searchTerms}",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 1,
-        "isdefault": 0
-    }, {
         "shortname": "video - live TV #01 - CBS News",
         "iconurl": "https://cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/favicon.ico",
         "searchurl": "https://www.cbsnews.com/live/",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #01 - CBS News [direct]",
@@ -54,7 +14,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly93d3cuY2JzbmV3cy5jb20vY29tbW9uL3ZpZGVvL2RhaV9wcm9kLm0zdTg%253D",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #02 - ABC News",
@@ -62,7 +22,7 @@
         "searchurl": "https://abcnews.go.com/Live",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #02 - ABC News [direct]",
@@ -70,7 +30,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9hYmNsaXZlMi1saC5ha2FtYWloZC5uZXQvaS9hYmNfbGl2ZTExQDQyMzQwNC9tYXN0ZXIubTN1OA%253D%253D",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #03 - Bloomberg TV",
@@ -78,7 +38,7 @@
         "searchurl": "https://www.bloomberg.com/live/us",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #03 - Bloomberg TV [direct]",
@@ -86,7 +46,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9iYmxpdmUtbGl2ZXByb2R1c2Vhc3QuaHMubGxud2QubmV0L2J0di9kZXNrdG9wL3VzX2xpdmUubTN1OA%253D%253D",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #04 - Sky News (UK)",
@@ -94,7 +54,7 @@
         "searchurl": "https://news.sky.com/watch-live",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #05 - ABC News (Australia)",
@@ -102,7 +62,7 @@
         "searchurl": "http://www.abc.net.au/news/newschannel/",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #05 - ABC News (Australia) [direct]",
@@ -110,7 +70,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9hYmMtaXZpZXctbWVkaWFwYWNrYWdlc3RyZWFtcy0xLmFrYW1haXplZC5uZXQvb3V0L3YxLzUwMzQ1YmYzNWY2NjQ3Mzk5MTJmMGIyNTVjMTcyYWU5L2luZGV4Lm0zdTg%253D",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.01 - LiveNewsOn - CNN",
@@ -118,7 +78,7 @@
         "searchurl": "http://www.livenewson.com/american/cnn-news-usa.html",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.02 - LiveNewsOn - HLN (CNN2 Headline News)",
@@ -126,7 +86,7 @@
         "searchurl": "http://www.livenewson.com/american/hln.html",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.03 - LiveNewsOn - MSNBC",
@@ -134,7 +94,7 @@
         "searchurl": "http://www.livenewson.com/american/msnbc.html",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.03 - LiveNewsOn - MSNBC [direct]",
@@ -142,7 +102,7 @@
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZW1zbmJjLWxoLmFrYW1haWhkLm5ldC9pL25iY21zbmJjXzFAMTIyNTMyL21hc3Rlci5tM3U4",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
         "shortname": "video - live TV #06.04 - LiveNewsOn - FOX News",
@@ -150,122 +110,939 @@
         "searchurl": "http://www.livenewson.com/american/fox-news-channel.html",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.00 - TVCatchup - channels",
+        "shortname": "video - live TV #07.00.1 - FirstOne TV - list of countries",
+        "iconurl": "https://www.firstonetv.net/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live",
+        "x-userscript": "https://github.com/warren-bank/crx-FirstOne-TV/releases/download/v0.2.1/FirstOne-TV.crx",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.00.2 - FirstOne TV - list of channels: USA",
+        "iconurl": "https://www.firstonetv.net/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)",
+        "x-userscript": "https://github.com/warren-bank/crx-FirstOne-TV/releases/download/v0.2.1/FirstOne-TV.crx",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.00.3 - FirstOne TV - list of channels: UK",
+        "iconurl": "https://www.firstonetv.net/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom",
+        "x-userscript": "https://github.com/warren-bank/crx-FirstOne-TV/releases/download/v0.2.1/FirstOne-TV.crx",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.00.4 - FirstOne TV - list of channels: Canada",
+        "iconurl": "https://www.firstonetv.net/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/Canada",
+        "x-userscript": "https://github.com/warren-bank/crx-FirstOne-TV/releases/download/v0.2.1/FirstOne-TV.crx",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.01 - FirstOne TV - ABC",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/ABC--83",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.02 - FirstOne TV - NBC",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NBC-54",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.03 - FirstOne TV - CBS",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/CBS-85",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.04 - FirstOne TV - FOX",
+        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Fox-88",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.05 - FirstOne TV - MSNBC",
+        "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/MSNBC-66",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.06 - FirstOne TV - PBS",
+        "iconurl": "https://www.pbs.org/static/images/favicons/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/PBS-81",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.07 - FirstOne TV - The CW",
+        "iconurl": "http://www.cwtv.com/images/cw/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/The-CW-Television-Network-35",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.08 - FirstOne TV - SyFy",
+        "iconurl": "http://www.syfy.com/sites/syfy/themes/wired/favicons/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Syfy-63",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.09 - FirstOne TV - USA Network",
+        "iconurl": "http://www.usanetwork.com/sites/usanetwork/themes/aurora_usa/images/usa_favicon_16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/USA-Network-92",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.10 - FirstOne TV - FX",
+        "iconurl": "https://www.fxnetworks.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/FX-91",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.11 - FirstOne TV - FXX",
+        "iconurl": "https://www.fxnetworks.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/FXX-101",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.12 - FirstOne TV - Showtime",
+        "iconurl": "http://www.sho.com/assets/images/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Showtime-60",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.13 - FirstOne TV - Showtime 2",
+        "iconurl": "http://www.sho.com/assets/images/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Showtime-2-102",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.14 - FirstOne TV - HBO",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Home-Box-Office-(HBO)--96",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.15 - FirstOne TV - HBO Signature",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/HBO-Signature-107",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.16 - FirstOne TV - HBO Comedy",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/HBO-Comedy-108",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.17 - FirstOne TV - A&E",
+        "iconurl": "https://bundler.watch.aetnd.com/images/aetv/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/A+E--21",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.18 - FirstOne TV - Starz",
+        "iconurl": "https://www.starz.com/assets/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Starz-62",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.19 - FirstOne TV - Starz Encore",
+        "iconurl": "https://www.starz.com/assets/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Starz-Encore-106",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.20 - FirstOne TV - Starz Edge",
+        "iconurl": "https://www.starz.com/assets/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Starz-Edge-105",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.21 - FirstOne TV - Bravo",
+        "iconurl": "http://www.bravotv.com/sites/nbcubravotv/themes/custom/reality/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Bravo-30",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.22 - FirstOne TV - History Channel",
+        "iconurl": "https://bundler.watch.aetnd.com/images/history/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/History-48",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.23 - FirstOne TV - Discovery Channel",
+        "iconurl": "https://www.discovery.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Discovery-Channel-37",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.24 - FirstOne TV - National Geographic",
+        "iconurl": "https://www.nationalgeographic.com/etc/designs/platform/refresh/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/National-Geographic--52",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.25 - FirstOne TV - TLC",
+        "iconurl": "https://www.tlc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/TLC-65",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.26 - FirstOne TV - HGTV",
+        "iconurl": "https://www.hgtv.com/etc/clientlibs/assets/images/hgtv/favicon-96x96.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/HGTV-47",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.27 - FirstOne TV - AMC",
+        "iconurl": "https://www.amc.com/wp-content/themes/amc-tv/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/AMC-25",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.28 - FirstOne TV - Sundance TV",
+        "iconurl": "https://www.sundancetv.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/SundanceTV-104",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.29 - FirstOne TV - C-SPAN",
+        "iconurl": "https://static.c-span.org/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/C-SPAN-76",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.30 - FirstOne TV - C-SPAN 2",
+        "iconurl": "https://static.c-span.org/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/C-SPAN-2-109",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.31 - FirstOne TV - C-SPAN 3",
+        "iconurl": "https://static.c-span.org/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/C-SPAN-3-110",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.32 - FirstOne TV - NASA TV",
+        "iconurl": "https://www.nasa.gov/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NASA-TV-12",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.33 - FirstOne TV - BBC World News",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-World-News-3",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.34 - FirstOne TV - Euronews",
+        "iconurl": "http://www.euronews.com/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Euronews-29",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.35 - FirstOne TV - BBC News",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-News-2",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.36 - FirstOne TV - London Live",
+        "iconurl": "http://www.londonlive.co.uk/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/London-Live--46",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.37 - FirstOne TV - BBC One",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-One--4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.38 - FirstOne TV - BBC Two",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-Two-5",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.39 - FirstOne TV - BBC Four",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-Four-7",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.40 - FirstOne TV - Channel 4",
+        "iconurl": "https://www.channel4.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Channel-4--11",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.41 - FirstOne TV - More4",
+        "iconurl": "https://www.channel4.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/More4--25",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.42 - FirstOne TV - Channel 5",
+        "iconurl": "http://www.channel5.com/wp-content/themes/channel5/images/favicon.gif",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Channel-5--31",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.43 - FirstOne TV - ITV 1",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITV1--21",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.44 - FirstOne TV - ITV 2",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITV2-22",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.45 - FirstOne TV - ITV 3",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITV3-23",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.46 - FirstOne TV - ITV 4",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITV4-24",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.47 - FirstOne TV - ITVBe",
+        "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/ITVBe-110",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.48 - FirstOne TV - CBS Action",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/CBS-Action-67",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.49 - FirstOne TV - CBS Drama",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/CBS-Drama-68",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.50 - FirstOne TV - CBS Reality",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/CBS-Reality-69",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.51 - FirstOne TV - MTV",
+        "iconurl": "http://www.mtv.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/MTV-85",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.52 - FirstOne TV - MTV Classic",
+        "iconurl": "http://www.mtv.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/MTV-Classic-57",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.53 - FirstOne TV - Comedy Central",
+        "iconurl": "http://www.cc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Comedy-Central-56",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.54 - FirstOne TV - Spike",
+        "iconurl": "http://www.paramountnetwork.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Spike-93",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.55 - FirstOne TV - Movies4Men",
+        "iconurl": "https://www.movies4men.co.uk/sites/all/themes/responsive/responsive_m4m/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Movies4Men-26",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.56 - FirstOne TV - Lifetime",
+        "iconurl": "https://bundler.watch.aetnd.com/images/lifetime/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Lifetime-83",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.57 - FirstOne TV - E!",
+        "iconurl": "https://www.eonline.com/resources/images/misc/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/E!--79",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.58 - FirstOne TV - Food Network",
+        "iconurl": "https://www.foodnetwork.com/etc/clientlibs/assets/images/food/favicon-32x32.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Food-Network-107",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.59 - FirstOne TV - Discovery Science",
+        "iconurl": "https://www.discovery.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Discovery-Science-41",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.60 - FirstOne TV - Discovery History",
+        "iconurl": "https://www.discovery.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Discovery-History-72",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.61 - FirstOne TV - History Channel",
+        "iconurl": "https://bundler.watch.aetnd.com/images/history/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/History-44",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.62 - FirstOne TV - TLC",
+        "iconurl": "https://www.tlc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/TLC-95",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.63 - FirstOne TV - Sony Movie Channel",
+        "iconurl": "https://www.sonymoviechannel.com/sites/all/themes/responsive/responsive_smc_us/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Sony-Movie-Channel-92",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.64 - FirstOne TV - True Movies 1",
+        "iconurl": "https://www.truechannels.tv/sites/all/themes/responsive/responsive_truetv/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/True-Movies-1-96",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.65 - FirstOne TV - True Movies 2",
+        "iconurl": "https://www.truechannels.tv/sites/all/themes/responsive/responsive_truetv/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/True-Movies-2-97",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #07.66 - FirstOne TV - BBC Parliament",
+        "iconurl": "https://www.bbc.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/BBC-Parliament-101",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #08.00 - TVCatchup - channels",
         "iconurl": "http://www.tvcatchup.com/favico.ico",
         "searchurl": "http://www.tvcatchup.com/channels",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.01 - TVCatchup - BBC News (UK)",
+        "shortname": "video - live TV #08.01 - TVCatchup - BBC News (UK)",
         "iconurl": "https://www.bbc.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/bbcnews",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.02 - TVCatchup - BBC One (UK)",
+        "shortname": "video - live TV #08.02 - TVCatchup - BBC One (UK)",
         "iconurl": "https://www.bbc.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/bbcone",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.03 - TVCatchup - BBC Two (UK)",
+        "shortname": "video - live TV #08.03 - TVCatchup - BBC Two (UK)",
         "iconurl": "https://www.bbc.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/bbctwo",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.04 - TVCatchup - BBC Four (UK)",
+        "shortname": "video - live TV #08.04 - TVCatchup - BBC Four (UK)",
         "iconurl": "https://www.bbc.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/bbcfour",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.05 - TVCatchup - ITV (UK)",
+        "shortname": "video - live TV #08.05 - TVCatchup - ITV (UK)",
         "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/itv",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.06 - TVCatchup - ITV 2 (UK)",
+        "shortname": "video - live TV #08.06 - TVCatchup - ITV 2 (UK)",
         "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/itv2",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.07 - TVCatchup - ITV 3 (UK)",
+        "shortname": "video - live TV #08.07 - TVCatchup - ITV 3 (UK)",
         "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/itv3",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.08 - TVCatchup - ITV 4 (UK)",
+        "shortname": "video - live TV #08.08 - TVCatchup - ITV 4 (UK)",
         "iconurl": "https://www.itv.com/hub/assets/img/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/itv4",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.09 - TVCatchup - Channel 4 (UK)",
+        "shortname": "video - live TV #08.09 - TVCatchup - Channel 4 (UK)",
         "iconurl": "https://www.channel4.com/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/channel4",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.10 - TVCatchup - Channel 5 (UK)",
+        "shortname": "video - live TV #08.10 - TVCatchup - Channel 5 (UK)",
         "iconurl": "http://www.channel5.com/wp-content/themes/channel5/images/favicon.gif",
         "searchurl": "http://www.tvcatchup.com/watch/five",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.11 - TVCatchup - Food Network",
+        "shortname": "video - live TV #08.11 - TVCatchup - Food Network",
         "iconurl": "https://www.foodnetwork.com/etc/clientlibs/assets/images/food/favicon-32x32.png",
         "searchurl": "http://www.tvcatchup.com/watch/foodnetwork",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.12 - TVCatchup - CBS Reality",
+        "shortname": "video - live TV #08.12 - TVCatchup - CBS Reality",
         "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/cbsreality",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #07.13 - TVCatchup - CBS Action",
+        "shortname": "video - live TV #08.13 - TVCatchup - CBS Action",
         "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
         "searchurl": "http://www.tvcatchup.com/watch/cbsaction",
         "method": "get",
         "encoding": "undefined",
-        "position": 2,
+        "position": 1,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.00.1 - MLB Network - schedule of upcoming games",
+        "shortname": "video - live TV #09.01 - Zahistation - CNN: US",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "http://www.zahitvstations.com/watch-cnn-usa-live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.01 - Zahistation - CNN: US [direct]",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly8yMjAxLmphbmp1YXBsYXllci5jb206ODA4OC9saXZlL2Nubl9saXZlc3RyZWFtaW5nL3BsYXlsaXN0Lm0zdTg%252FaWQ9NzEyMDImcGs9ZDY3MjhlYWQ2OTlkMGJkYjU1ZDQ1YzllNDhlZDJkOTJiYTNlNTQ0NWQzMjlhNDdiM2VkOTdkNzVlYmE2NTJkNg%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.02 - Zahistation - CNN: International",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "http://www.zahitvstations.com/watch-cnn-international-live",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #09.02 - Zahistation - CNN: International [direct]",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly8yMjAyLmphbmp1YXBsYXllci5jb206ODA4OC9saXZlL2Nubl9saXZlc3RyZWFtaW5nL3BsYXlsaXN0Lm0zdTg%252FaWQ9NzEyMDImcGs9ZDY3MjhlYWQ2OTlkMGJkYjU1ZDQ1YzllNDhlZDJkOTJiYTNlNTQ0NWQzMjlhNDdiM2VkOTdkNzVlYmE2NTJkNg%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #10.00 - iBrod - channels",
+        "iconurl": "http://www.ibrod.tv/favicon.ico",
+        "searchurl": "http://www.ibrod.tv/tvchans.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #10.01 - iBrod - The CW",
+        "iconurl": "http://www.cwtv.com/images/cw/favicon.ico",
+        "searchurl": "http://www.ibrod.tv/cw-live-stream.html",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #10.01 - iBrod - The CW [direct]",
+        "iconurl": "http://www.cwtv.com/images/cw/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9jZG5hcGlzZWMua2FsdHVyYS5jb20vcC8yMzA2MTIxL3NwLzIzMDYxMjEwMC9wbGF5TWFuaWZlc3QvZW50cnlJZC8xX29nZ3UxZGJjL2Zvcm1hdC9hcHBsZWh0dHAvcHJvdG9jb2wvaHR0cHMvdWlDb25mSWQvNDAwNDE5ODEvYS5tM3U4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.01 - VIP League (HLS-Proxy) - ABC",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "https://www.vipleague.cc/abc-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ABC.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.01 - VIP League (HLS-Proxy) - ABC [direct]",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/oiTgbz3SXPrK8lLOk67B/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ABC.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.02 - VIP League (HLS-Proxy) - NBC",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/nbc-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NBC.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.02 - VIP League (HLS-Proxy) - NBC [direct]",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/xczPmTIQ75yiKfXZJjo6/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NBC.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.03 - VIP League (HLS-Proxy) - CBS",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/cbs-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] CBS.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.03 - VIP League (HLS-Proxy) - CBS [direct]",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/cjbq9yfp8WGvsRBkChFi/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] CBS.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.04 - VIP League (HLS-Proxy) - FOX",
+        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/fox--entertainment-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] FOX.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.04 - VIP League (HLS-Proxy) - FOX [direct]",
+        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/WDramgSAxuUV2pQjs9RH/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] FOX.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.05 - VIP League (HLS-Proxy) - HBO",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.vipleague.cc/hbo-streaming-link-1",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] HBO.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #11.05 - VIP League (HLS-Proxy) - HBO [direct]",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/6rIAHeghLaYNOscpJQW8/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] HBO.bat",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.00 - Streamlive - channels",
+        "iconurl": "https://www.streamlive.to/favicon.ico",
+        "searchurl": "https://www.streamlive.to/channels",
+        "x-userscript": "https://github.com/warren-bank/HLS-proxy/raw/master/.recipes/02.%20streamlive.to/.channels/streamlive.user.js",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.01 - Streamlive (HLS-Proxy) - CNN",
+        "iconurl": "https://www.cnn.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/46461/CNN-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.02 - Streamlive (HLS-Proxy) - HBO",
+        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/36674/HBO-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.03 - Streamlive (HLS-Proxy) - ABC",
+        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
+        "searchurl": "https://www.streamlive.to/info/46476/ABC-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.04 - Streamlive (HLS-Proxy) - NBC",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/57956/NBC-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.05 - Streamlive (HLS-Proxy) - CBS",
+        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/57976/CBS-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.06 - Streamlive (HLS-Proxy) - FOX",
+        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/56002/Fox-Network-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.07 - Streamlive (HLS-Proxy) - FOX News",
+        "iconurl": "http://global.fncstatic.com/static/orion/styles/img/fox-news/favicons/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/46465/Fox-News-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.08 - Streamlive (HLS-Proxy) - AMC",
+        "iconurl": "https://www.amc.com/wp-content/themes/amc-tv/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/46209/AMC-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.09 - Streamlive (HLS-Proxy) - Disney Channel",
+        "iconurl": "https://disneychannel.disney.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/38804/Disney-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #12.10 - Streamlive (HLS-Proxy) - Nickelodeon",
+        "iconurl": "http://www.nick.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/71112/Nickelodeon",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live TV #13.01 - misc - UstreaMix",
+        "iconurl": "https://ssl.ustreamix.com/favicon.ico",
+        "searchurl": "https://ssl.ustreamix.com/",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 1,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #01.01 - game schedules - MLB Network",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "searchurl": "http://m.mlb.com/network/shows/?id=live_games",
         "method": "get",
@@ -273,15 +1050,183 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.00.2 - MLB Network - program guide (Eastern Time)",
-        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
-        "searchurl": "http://m.mlb.com/network/tv-schedule/",
+        "shortname": "video - live sports #01.02 - game schedules - ESPN - MLB",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "http://www.espn.com/mlb/schedule",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.01 - MLB Network",
+        "shortname": "video - live sports #01.03 - game schedules - ESPN - MLB - Red Sox",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "http://www.espn.com/mlb/team/schedule/_/name/bos",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #01.04 - game schedules - NBA TV",
+        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
+        "searchurl": "http://www.nba.com/nbatv/schedule",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #01.05 - game schedules - NFL Network",
+        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
+        "searchurl": "http://www.nfl.com/nflnetwork/networkschedule",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.01 - FirstOne TV - ESPN",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/ESPN-40",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.02 - FirstOne TV - ESPN 2",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/ESPN-2-41",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.03 - FirstOne TV - ESPN News",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/ESPN-News-87",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.04 - FirstOne TV - MLB Network",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/MLB-Network-51",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.05 - FirstOne TV - NBA TV",
+        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NBA-TV-53",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.06 - FirstOne TV - NFL Network",
+        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NFL-Network-56",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.07 - FirstOne TV - NBC Sports",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/NBCSN--55",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.08 - FirstOne TV - FOX Sports",
+        "iconurl": "https://b.fssta.com/sta/images/60x60.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Fox-Sports-1-(FS1)-79",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.09 - FirstOne TV - Golf Channel",
+        "iconurl": "https://www.golfchannel.com/public/images/favicon/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/Golf-Channel-44",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.10 - FirstOne TV - WWE Network (pro wrestling)",
+        "iconurl": "https://www.wwe.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-States-(USA)/WWE-Network-67",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.11 - FirstOne TV - Eurosport 1",
+        "iconurl": "https://layout.eurosport.com/i/v8/favicon/wen/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Eurosport-1--34",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.12 - FirstOne TV - Eurosport 2",
+        "iconurl": "https://layout.eurosport.com/i/v8/favicon/wen/favicon-16x16.png",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Eurosport-2-35",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.13 - FirstOne TV - Premier Sports (UK)",
+        "iconurl": "http://www.premiersports.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Premier-Sports-89",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.14 - FirstOne TV - MUTV (Manchester United football club)",
+        "iconurl": "https://mutv.manutd.com/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/MUTV-(Manchester-United-F.C.)-86",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.15 - FirstOne TV - Chelsea TV (Chelsea football club)",
+        "iconurl": "https://www.chelseafc.com/assets/images/favicon.ico",
+        "searchurl": "https://www.firstonetv.net/Live/United-Kingdom/Chelsea-TV--70",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.16 - FirstOne TV - TSN 1 (Canada)",
+        "iconurl": "https://images.tsn.ca/favicon32.ico",
+        "searchurl": "https://www.firstonetv.net/Live/Canada/The-Sports-Network-1-(TSN-1)-12",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.17 - FirstOne TV - TSN 2 (Canada)",
+        "iconurl": "https://images.tsn.ca/favicon32.ico",
+        "searchurl": "https://www.firstonetv.net/Live/Canada/The-Sports-Network-2-(TSN-2)-13",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #02.18 - FirstOne TV - TSN 3 (Canada)",
+        "iconurl": "https://images.tsn.ca/favicon32.ico",
+        "searchurl": "https://www.firstonetv.net/Live/Canada/The-Sports-Network-3-(TSN-3)-14",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #03 - MLB Network",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "x-searchurl": "https://www.mlbstream.io/mlb-network-live/stream-1",
         "searchurl": "https://www.mlbstream.io/embed/294437/1/",
@@ -290,7 +1235,7 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #08.01 - MLB Network [direct]",
+        "shortname": "video - live sports #03 - MLB Network [direct]",
         "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
         "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cHM6Ly9tbGJsaXZlLWFrYy5tbGIuY29tL2xzMDEvbWxiYW0vbWxiX25ldHdvcmsvTkVUV09SS19MSU5FQVJfMS9tYXN0ZXJfd2lyZWQubTN1OA%253D%253D",
         "method": "get",
@@ -298,221 +1243,241 @@
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.00.1 - ESPN - schedule: MLB",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "http://www.espn.com/mlb/schedule",
+        "shortname": "video - live sports #04.01 - UnimasGO - NBC Sports: Bay Area",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNBayarea.php",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.00.2 - ESPN - schedule: Boston Red Sox",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "http://www.espn.com/mlb/team/schedule/_/name/bos",
+        "shortname": "video - live sports #04.01 - UnimasGO - NBC Sports: Bay Area [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbmJheWFyZWEtaS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5NzkxL0NTTmJheWFyZWF4LzQyOTZrL3Byb2cubTN1OA%253D%253D",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.01 - ESPN (HLS-Proxy: arconaitv.us)",
-        "iconurl": "http://a.espncdn.com/favicon.ico",
-        "searchurl": "https://www.arconaitv.us/stream.php?id=40",
+        "shortname": "video - live sports #04.02 - UnimasGO - NBC Sports: California",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNCalifornia.php",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.02 - ESPN (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live sports #04.02 - UnimasGO - NBC Sports: California [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbmNhbGlmb3JuaWEtaS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5NzkyL0NTTmNhbGlmb3JuaWF4LzQyOTZrL3Byb2cubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.03 - UnimasGO - NBC Sports: Chicago",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNChicago.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.03 - UnimasGO - NBC Sports: Chicago [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbmNoaWNhZ28taS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5NzkzL0NTTmNoaWNhZ294LzQyOTZrL3Byb2cubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.04 - UnimasGO - NBC Sports: New England",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNNewengland.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.04 - UnimasGO - NBC Sports: New England [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbm5ld2VuZ2xhbmQtaS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5Nzk1L0NTTm5ld2VuZ2xhbmR4LzQyOTZrL3Byb2cubTN1OA%253D%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.05 - UnimasGO - NBC Sports: Northwest",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNNorthwest.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.05 - UnimasGO - NBC Sports: Northwest [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbm5vcnRod2VzdC1pLmFrYW1haWhkLm5ldC9obHMvbGl2ZS8yMTk3OTYvQ1NObm9ydGh3ZXN0eC80Mjk2ay9wcm9nLm0zdTg%253D",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.06 - UnimasGO - NBC Sports: Philadelphia",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "http://unimasgo.com/CSNPhiladelphia.php",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #04.06 - UnimasGO - NBC Sports: Philadelphia [direct]",
+        "iconurl": "https://www.nbcsports.com/sites/nbcsports.com/files/favicon.ico",
+        "searchurl": "https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/aHR0cDovL3R2ZWNzbnBoaWxhZGVscGgtaS5ha2FtYWloZC5uZXQvaGxzL2xpdmUvMjE5Nzk0L0NTTnBoaWxhZGVscGhpYXgvNDI5NmsvcHJvZy5tM3U4",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 2,
+        "isdefault": 0
+    }, {
+        "shortname": "video - live sports #05.01 - VIP League (HLS-Proxy) - ESPN",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "https://www.vipleague.cc/espn-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPN",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPN.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.02 - ESPN (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.01 - VIP League (HLS-Proxy) - ESPN [direct]",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/RKUtex2CodYBuOkTGq6A/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPN",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPN.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.03 - ESPN 2 (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live sports #05.02 - VIP League (HLS-Proxy) - ESPN 2",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "https://www.vipleague.cc/espn-2-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPN2",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPN2.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.03 - ESPN 2 (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.02 - VIP League (HLS-Proxy) - ESPN 2 [direct]",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/Qy4A0r6jvBxeaoIpsgZW/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPN2",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPN2.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.04 - ESPNU college athletics (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live sports #05.03 - VIP League (HLS-Proxy) - ESPNU college athletics",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "https://www.vipleague.cc/espnu-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPNU",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPNU.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #09.04 - ESPNU college athletics (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.03 - VIP League (HLS-Proxy) - ESPNU college athletics [direct]",
         "iconurl": "http://a.espncdn.com/favicon.ico",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/NbBqJFshMLxlU95SWiDX/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ESPNU",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] ESPNU.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #10.00 - NBA TV - schedule",
-        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
-        "searchurl": "http://www.nba.com/nbatv/schedule",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #10.01 - NBA TV (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live sports #05.04 - VIP League (HLS-Proxy) - NBA TV",
         "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
         "searchurl": "https://www.vipleague.cc/nba-tv-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NBA%20TV",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NBA TV.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #10.01 - NBA TV (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.04 - VIP League (HLS-Proxy) - NBA TV [direct]",
         "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/J0SrB4amf3YORDoMtwvs/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NBA%20TV",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NBA TV.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #11.00 - NFL Network - schedule",
-        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
-        "searchurl": "http://www.nfl.com/nflnetwork/networkschedule",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #11.01 - NFL Network (HLS-Proxy: vipleague.cc)",
+        "shortname": "video - live sports #05.05 - VIP League (HLS-Proxy) - NFL Network",
         "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
         "searchurl": "https://www.vipleague.cc/nfl-network-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NFL%20Network",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NFL Network.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #11.01 - NFL Network (HLS-Proxy: vipleague.cc) [direct]",
+        "shortname": "video - live sports #05.05 - VIP League (HLS-Proxy) - NFL Network [direct]",
         "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
         "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/4ornXB7aDZHLViI6JS0b/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NFL%20Network",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/01. vipleague.cc/[http, port 8080] NFL Network.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #12 - ABC (HLS-Proxy: vipleague.cc)",
-        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
-        "searchurl": "https://www.vipleague.cc/abc-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ABC",
+        "shortname": "video - live sports #05.06.1 - NFL Stream (HLS-Proxy)",
+        "iconurl": "http://i.nflcdn.com/static/site/7.5/img/favicon.png",
+        "searchurl": "https://www.nflstream.io/",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/02. nflstream.io/[http, port 8080] 2018-08-24 Patriots vs Panthers.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #12 - ABC (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://cdn1.edgedatg.com/aws/abc/prod/images/favicon-abc.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/oiTgbz3SXPrK8lLOk67B/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/ABC",
+        "shortname": "video - live sports #05.06.2 - MLB Stream (HLS-Proxy)",
+        "iconurl": "http://ui.bamstatic.com/baseball/images/team-logos/current/favicon/mlb.ico",
+        "searchurl": "https://www.mlbstream.io/",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/01. livecamtv.me/.channels/03. mlbstream.io/[http, port 8080] 2018-08-25 Red Sox vs Rays.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #13 - NBC (HLS-Proxy: vipleague.cc)",
-        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
-        "searchurl": "https://www.vipleague.cc/nbc-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NBC",
+        "shortname": "video - live sports #05.06.3 - NBA Stream (HLS-Proxy)",
+        "iconurl": "http://cdn.nba.net/assets/icons/favicon16.ico",
+        "searchurl": "https://www.nbastream.io/",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01. livecamtv.me/.channels",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #13 - NBC (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/xczPmTIQ75yiKfXZJjo6/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/NBC",
+        "shortname": "video - live sports #06.01 - Streamlive (HLS-Proxy) - ESPN",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/48051/ESPN-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #14 - CBS (HLS-Proxy: vipleague.cc)",
-        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
-        "searchurl": "https://www.vipleague.cc/cbs-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/CBS",
+        "shortname": "video - live sports #06.02 - Streamlive (HLS-Proxy) - ESPN 2",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.streamlive.to/info/57977/ESPN-2-(HD)",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/02. streamlive.to/streamlive.cmd",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
         "isdefault": 0
     }, {
-        "shortname": "video - live TV #14 - CBS (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://wwwimage-secure3.cbsstatic.com/sitecommon/images/favicon.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/cjbq9yfp8WGvsRBkChFi/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/CBS",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #15 - FOX (HLS-Proxy: vipleague.cc)",
-        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
-        "searchurl": "https://www.vipleague.cc/fox--entertainment-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/FOX",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #15 - FOX (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://static-media.fox.com/foxnow/web/favicon.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/WDramgSAxuUV2pQjs9RH/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/FOX",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #16 - HBO (HLS-Proxy: vipleague.cc)",
-        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
-        "searchurl": "https://www.vipleague.cc/hbo-streaming-link-1",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/HBO",
-        "method": "get",
-        "encoding": "undefined",
-        "position": 2,
-        "isdefault": 0
-    }, {
-        "shortname": "video - live TV #16 - HBO (HLS-Proxy: vipleague.cc) [direct]",
-        "iconurl": "https://www.hbo.com/etc/designs/hboweb/favicon/favicon.ico",
-        "searchurl": "$ let payload = 'https://e1.livecamtv.me/zmelive/6rIAHeghLaYNOscpJQW8/playlist.m3u8'; let proxy_host = window.prompt('HLS-Proxy server:', 'http://192.168.0.100:8080'); if (!proxy_host) return ''; let base64_payload = window.btoa(payload); let base64_payload_with_extension = base64_payload + '.m3u8'; let proxy_server = proxy_host + '/' + base64_payload_with_extension; let base64_proxy_server = window.btoa(proxy_server); let webcast = 'https://warren-bank.github.io/crx-webcast-reloaded/external_website/index.html#/watch/' + base64_proxy_server; return webcast;",
-        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/tree/master/.recipes/01.%20vipleague.cc/HBO",
+        "shortname": "video - live sports #07 - Arconai TV (HLS-Proxy) - ESPN",
+        "iconurl": "http://a.espncdn.com/favicon.ico",
+        "searchurl": "https://www.arconaitv.us/stream.php?id=40",
+        "x-hlsd-recipe": "https://github.com/warren-bank/HLS-proxy/blob/master/.recipes/00. generic use cases/[http, port 8080] log level 2, prefetch 20.bat",
         "method": "get",
         "encoding": "undefined",
         "position": 2,
@@ -526,9 +1491,17 @@
         "position": 3,
         "isdefault": 0
     }, {
-        "shortname": "video - TV and movies #02 - NBC",
+        "shortname": "video - TV and movies #02.00 - NBC",
         "iconurl": "https://www.nbc.com/generetic/favicon.ico",
         "searchurl": "https://www.nbc.com/video",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 3,
+        "isdefault": 0
+    }, {
+        "shortname": "video - TV and movies #02.01 - NBC - Meet The Press (weekly: Sunday morning)",
+        "iconurl": "https://www.nbc.com/generetic/favicon.ico",
+        "searchurl": "https://www.nbc.com/meet-the-press/episodes",
         "method": "get",
         "encoding": "undefined",
         "position": 3,
@@ -670,7 +1643,7 @@
         "position": 3,
         "isdefault": 0
     }, {
-        "shortname": "video - TV and movies #12.02 - Pluto TV - MSNBC (politics)",
+        "shortname": "video - TV and movies #12.02 - Pluto TV - MSNBC",
         "iconurl": "http://www.msnbc.com/sites/msnbc/themes/leanforward/favicon.ico",
         "searchurl": "http://pluto.tv/watch/nbc-news-and-msnbc",
         "method": "get",
@@ -846,12 +1819,52 @@
         "position": 4,
         "isdefault": 0
     }, {
+        "shortname": "video - educational lectures #01 - MIT OpenCourseWare (OCW)",
+        "iconurl": "https://ocw.mit.edu/images/apple-touch-icon.png",
+        "searchurl": "https://archive.org/details/mit_ocw?and[]=mediatype:%22movies%22&and[]={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #02 - Open Yale Courses",
+        "iconurl": "https://oyc.yale.edu/sites/all/themes/yalenew_base/images/favicon.ico",
+        "searchurl": "https://oyc.yale.edu/search/node/{searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #03 - University of California, Irvine - OpenChemistry",
+        "iconurl": "https://ps.uci.edu/sites/all/themes/psbase/img/favicon.ico",
+        "searchurl": "https://ps.uci.edu/content/openchemistry-lectures",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #04 - VideoLectures",
+        "iconurl": "http://static.videolectures.net/r.1483388978//custom/favicon.ico",
+        "searchurl": "http://videolectures.net/site/search/?q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
+        "shortname": "video - educational lectures #05 - TED Talks",
+        "iconurl": "https://pa.tedcdn.com/favicon.ico",
+        "searchurl": "https://www.ted.com/search?cat=talks&q={searchTerms}",
+        "method": "get",
+        "encoding": "undefined",
+        "position": 5,
+        "isdefault": 0
+    }, {
         "shortname": "video - clips #01 - Vimeo",
         "iconurl": "https://f.vimeocdn.com/images_v6/favicon.ico",
         "searchurl": "https://vimeo.com/search?price=free&q={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #02 - Flickr",
@@ -859,7 +1872,7 @@
         "searchurl": "https://www.flickr.com/search/?media=videos&text={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #03 - Metacafe",
@@ -867,7 +1880,7 @@
         "searchurl": "http://www.metacafe.com/videos_about/{searchTerms}?channel_filter=videos",
         "method": "get",
         "encoding": "other",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #04 - Dailymotion",
@@ -875,7 +1888,7 @@
         "searchurl": "https://www.dailymotion.com/search/{searchTerms}",
         "method": "get",
         "encoding": "other",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #05 - Viewster",
@@ -883,7 +1896,7 @@
         "searchurl": "http://www.viewster.com/search/{searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #06 - Break",
@@ -891,7 +1904,7 @@
         "searchurl": "http://www.break.com/?s={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - clips #07 - StupidVideos",
@@ -899,7 +1912,7 @@
         "searchurl": "http://www.stupidvideos.com/?s={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 5,
+        "position": 6,
         "isdefault": 0
     }, {
         "shortname": "video - anime #01 - KissAnime",
@@ -907,7 +1920,7 @@
         "searchurl": "http://kissanime.ru/AdvanceSearch?genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&genres=0&status=&animeName={searchTerms}",
         "method": "post",
         "encoding": "undefined",
-        "position": 6,
+        "position": 7,
         "isdefault": 0
     }, {
         "shortname": "video - anime #02 - AnimeHeaven",
@@ -915,7 +1928,7 @@
         "searchurl": "http://animeheaven.eu/search.php?q={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 6,
+        "position": 7,
         "isdefault": 0
     }, {
         "shortname": "video - anime #03 - Animefreak",
@@ -923,7 +1936,7 @@
         "searchurl": "http://animefreak.tv/search/node/type%3Abook%20{searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 6,
+        "position": 7,
         "isdefault": 0
     }, {
         "shortname": "video - anime #04 - Soul Anime",
@@ -931,7 +1944,7 @@
         "searchurl": "http://ww5.soul-anime.us/search.php?search={searchTerms}",
         "method": "get",
         "encoding": "undefined",
-        "position": 6,
+        "position": 7,
         "isdefault": 0
     }]
 }
