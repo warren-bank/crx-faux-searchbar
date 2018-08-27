@@ -295,6 +295,23 @@ function removeContextMenu() {
 	}, 1);
 }
 
+function passesContextMenuFilter(filter, shortname, searchurl) {
+	var passes = false;
+	if (!filter) {
+		passes = true;
+	}
+	else if (filter === "*") {
+		passes = searchurl && (searchurl.indexOf('{searchTerms}') >= 0);
+	}
+	else if (filter === "!*") {
+		passes = searchurl && (searchurl.indexOf('{searchTerms}') == -1);
+	}
+	else {
+		passes = shortname && (shortname.toLowerCase().indexOf(filter) >= 0);
+	}
+	return passes;
+}
+
 function showContextMenu(e, filter) {
     filter = filter ? filter.toLowerCase() : false
 
@@ -313,7 +330,7 @@ function showContextMenu(e, filter) {
 		$(".menuitem").each(function(){
 			var $item = $(this);
 			if ($item.attr("shortname")) {
-				if (!filter || ($item.attr("shortname").toLowerCase().indexOf(filter) >= 0)) {
+				if (passesContextMenuFilter(filter, $item.attr("shortname"), $item.attr("searchurl"))) {
 					html += '	<div class="menuOption engine" shortname="'+$item.attr("shortname")+'" encoding="'+$item.attr("encoding")+'" style="background-image:url('+$item.attr("iconsrc")+'); background-size:16px 16px; background-repeat:no-repeat; background-position:4px 2px;">'+
 					$item.attr("shortname")+
 					'</div>';

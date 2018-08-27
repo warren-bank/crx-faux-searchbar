@@ -73,6 +73,11 @@ Chromium browser extension:
 * when the dropdown list is toggled open:
   * its contents will be dynamically filtered by the value entered in the text search field
     * case is ignored
+    * special filters:
+      * `"*"`:
+        - only display search engines that utilize: `"{searchTerms}"`
+      * `"!*"`:
+        - only display static bookmarks that do __not__ utilize: `"{searchTerms}"`
   * to see an unfiltered list of all available search engines, clear the value entered in the text search field
 
 #### Fork:
