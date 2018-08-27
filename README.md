@@ -86,14 +86,16 @@ This extension is a fork of [Fauxbar](https://github.com/ChrisNZL/Fauxbar)
 * based on [version 1.7.4](https://github.com/ChrisNZL/Fauxbar/tree/57f1271ff90321c26ce13493efb13098c47c8093) (16 January 2018)
 * written by [Chris McFarland](https://github.com/ChrisNZL)
 
-This extension is a strict subset of the original. It strips away many of its features and functionality.
+This extension was started with the intention to be a strict subset of the original. It stripped away many of its predecessor's features and functionalities.
 * the original is a powerful alternative to the Chrome omnibox
   * it integrates itself tightly with many Chrome settings (ex: bookmarks, history)
   * it maintains a database copy of each of these settings, and uses APIs to be notified of changes so it can keep its database in sync
   * it provides the ability to sync this data to "the cloud"
 * in addition, the original includes a search bar that does __not__ integrate with Chrome's custom search engine settings
   * the data only exists in its database
-* the purpose of this extension is to carve out only this search bar, and remove all the rest
+* the purpose of this extension was to carve out only this search bar, and remove all the rest
+
+The initial release of this extension met this goal. It has since added a few bells &amp; whistles of its own.
 
 #### Incognito Limitations:
 
