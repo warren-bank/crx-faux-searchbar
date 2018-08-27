@@ -139,7 +139,9 @@ jQuery(document).ready(function($){
 	// When user clicks the Search Box's triangle/arrow, show the list of selectable search engines to choose from, or close the list if it's showing
 	$("#opensearch_triangle").bind("mouseup", function(e){
 		$("#opensearch_triangle .triangle").addClass("glow");
-		showContextMenu(e);
+
+		var filter = $("#opensearchinput").val().trim();
+		showContextMenu(e, filter);
 	});
 
 	// When user clicks the Search Box's magnifying glass, submit the search if text is entered
@@ -224,6 +226,9 @@ function submitOpenSearch(query) {
 
 	if (!searchUrl) return
 
+	// reset search textbox
+	$("#opensearchinput").val('');
+
 	if ($(selectedMenuItem).length && $(selectedMenuItem).attr("method") && $(selectedMenuItem).attr("method").length && $(selectedMenuItem).attr("method").toLowerCase() == 'get') {
 		// GET
 
@@ -290,7 +295,9 @@ function removeContextMenu() {
 	}, 1);
 }
 
-function showContextMenu(e) {
+function showContextMenu(e, filter) {
+    filter = filter ? filter.toLowerCase() : false
+
 	var html = '';
 	if ($("#opensearch_triangle .glow").length) {
 		var y = $("#opensearch_triangle").offset().top+$("#opensearch_triangle").outerHeight();
@@ -304,10 +311,13 @@ function showContextMenu(e) {
 	html += '<div id="contextMenu" style="top:'+y+'px; left:'+x+'px; opacity:0;" >';
 	if ($("#opensearchinput:focus").length || $("#opensearch_triangle .glow").length) {
 		$(".menuitem").each(function(){
-			if ($(this).attr("shortname")) {
-				html += '	<div class="menuOption engine" shortname="'+$(this).attr("shortname")+'" encoding="'+$(this).attr("encoding")+'" style="background-image:url('+$(this).attr("iconsrc")+'); background-size:16px 16px; background-repeat:no-repeat; background-position:4px 2px;">'+
-				$(this).attr("shortname")+
-				'</div>';
+			var $item = $(this);
+			if ($item.attr("shortname")) {
+				if (!filter || ($item.attr("shortname").toLowerCase().indexOf(filter) >= 0)) {
+					html += '	<div class="menuOption engine" shortname="'+$item.attr("shortname")+'" encoding="'+$item.attr("encoding")+'" style="background-image:url('+$item.attr("iconsrc")+'); background-size:16px 16px; background-repeat:no-repeat; background-position:4px 2px;">'+
+					$item.attr("shortname")+
+					'</div>';
+				}
 			}
 		});
 		html += '	<div class="menuHr"></div>';

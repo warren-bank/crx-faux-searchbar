@@ -19,6 +19,62 @@ Chromium browser extension:
     * [WebSQL](https://en.wikipedia.org/wiki/Web_SQL_Database)
     * [localStorage](https://en.wikipedia.org/wiki/Web_storage#localStorage)
 
+#### Notes:
+
+* many of the more advanced/technical options can only be edited in JSON
+  * the easiest workflow is: export, edit, clear all search engines, import
+* format of JSON data:
+```javascript
+{
+    "restore": "append",
+    "searchengines": [{shortname, iconurl, searchurl, method, encoding, position, isdefault}]
+}
+```
+* fields:
+  * _restore_:
+    * `"append"`
+      * import appends new data to existing
+    * any other value:
+      * import deletes and replaces existing data
+  * _searchengines_:
+    * array of individual search engines
+    * _individual search engines_:
+      * _shortname_:
+        * String: descriptive name that appears in dropdown list
+      * _iconurl_:
+        * String: URL for the icon that appears in dropdown list
+      * _searchurl_:
+        * String: URL to open when the search engine is chosen from dropdown list
+          * the substring `"{searchTerms}"` is interpolated with the (url-encoded) value entered in the text search field
+      * _method_:
+        * String: `"get"` or `"post"`
+      * _encoding_:
+        * String: modifies url-encoding of the text search field
+          * `"other"`:
+            * whitespace is replaced by: `"%20"`
+          * all other values:
+            * whitespace is replaced by: `"+"`
+      * _position_:
+        * Number: modifies sort order
+          * `position ASC, shortname ASC`
+            * 1st: search engines are sorted by _position_
+            * 2nd: within each group of search engines that share the same _position_, they are sub-sorted by _shortname_
+      * _isdefault_:
+        * Number (representing a boolean):
+          * `1`:
+            * can only be set to true for one single search engine in array
+            * causes the chosen search engine to be selected by default when the searchbar page is opened
+          * `0`:
+            * otherwise
+* when _searchurl_ does not contain the substring `"{searchTerms}"`:
+  * _searchurl_ is a static bookmark
+    * the value entered in the text search field is ignored
+  * _searchurl_ is opened as soon as the search engine is chosen from dropdown list
+* when the dropdown list is toggled open:
+  * its contents will be dynamically filtered by the value entered in the text search field
+    * case is ignored
+  * to see an unfiltered list of all available search engines, clear the value entered in the text search field
+
 #### Fork:
 
 This extension is a fork of [Fauxbar](https://github.com/ChrisNZL/Fauxbar)
